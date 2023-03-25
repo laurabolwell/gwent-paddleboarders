@@ -1,4 +1,9 @@
-.uppercase {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading {
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -12,6 +17,49 @@
 }
 
 .benefits-container {
+}
+
+/* Navbar */
+
+.navbar {
+    background: #023047;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.navbar-toggler i {
+    color: #ffffff;
+    size: 20px;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 3-px;
+}
+
+.navbar-brand:hover {
+    color: #219ebc;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 8px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: regular;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #219ebc;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #219ebc;
 }
 
 /* Footer */
