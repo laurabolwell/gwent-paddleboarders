@@ -2,9 +2,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.text-muted {
+    font-size: smaller;
+}
+
 .heading {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 26px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.block-divider {
+    max-width: 5rem;
+    border-top: 3px solid;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #219EBC;
+    opacity: 1;
+    padding-bottom: 16px;
 }
 
 .hero-outer {
@@ -16,7 +39,9 @@ body {
     -o-background-size: cover;
 }
 
-.benefits-container {
+.about {
+    color: #023047;
+    padding: 100px 40px;
 }
 
 /* Navbar */
@@ -35,7 +60,7 @@ body {
 .navbar-brand {
     color: #ffffff;
     letter-spacing: 2px;
-    font-size: 3-px;
+    font-size: 20px;
 }
 
 .navbar-brand:hover {
