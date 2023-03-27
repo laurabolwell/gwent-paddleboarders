@@ -20,9 +20,16 @@ h2 {
 }
 
 h3 {
+    font-size: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+h4 {
     font-size: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
+    letter-spacing: 1px;
 }
 
 .block-divider {
@@ -38,6 +45,11 @@ h3 {
 
 .block-divider-white {
     color: #fff;
+}
+
+.block-divider-short {
+    max-width: 3rem;
+    padding-bottom: 0px;
 }
 
 .hero-outer {
@@ -76,6 +88,29 @@ h3 {
     color: #219EBC;
     background: #ffffff;
 }
+
+.schedule {
+    color: #023047;
+    background-color: #fff;
+    padding: 100px 40px;
+}
+
+.paddle-spot {
+    text-align: center;
+    border: 2px solid #219EBC;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-blue {
+    background-color: #219EBC;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
 
 /* Navbar */
 
