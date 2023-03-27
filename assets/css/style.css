@@ -111,6 +111,24 @@ h4 {
     margin-bottom: 10px;
 }
 
+/* Schedule page */
+
+.wednesday {
+    padding: 30px 60px;
+}
+
+.wednesday-info {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.map, .conditions {
+    width: 100%;
+    height: auto;
+    border: 2px solid #023047 !important;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* Navbar */
 
