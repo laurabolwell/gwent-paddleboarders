@@ -2,6 +2,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Colors */
+
+.tuesday {
+    background-color: #fff;
+    color: #023047
+}
+
+.thursday {
+    background-color: #219EBC;
+    color: #fff;
+}
+
+.saturday {
+    background-color: #023047;
+    color: #fff;
+}
+
+
 .text-muted {
     font-size: smaller;
 }
@@ -113,11 +131,18 @@ h4 {
 
 /* Schedule page */
 
-.wednesday {
-    padding: 30px 60px;
+.tuesday,
+.thursday,
+.saturday,
+.sunday {
+    padding: 50px 60px;
 }
+    
 
-.wednesday-info {
+.tuesday-info,
+.thursday-info,
+.saturday-info,
+.sunday-info {
     padding-left: 50px;
     padding-right: 50px;
 }
