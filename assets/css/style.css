@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #023047
 }
 
 /* Colors */
@@ -153,6 +154,13 @@ h4 {
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+/* Contact page */
+.contact {
+    margin: 50px 50px;
+    border: 2px solid #219EBC;
+    border-radius: 20px;
 }
 
 /* Navbar */
