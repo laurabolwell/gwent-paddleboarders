@@ -52,7 +52,7 @@ h4 {
 }
 
 .block-divider {
-    max-width: 5rem;
+    max-width: 90px;
     border-top: 3px solid;
     margin: auto;
     margin-top: 16px;
@@ -67,7 +67,13 @@ h4 {
 }
 
 .block-divider-short {
-    max-width: 3rem;
+    max-width: 50px;
+    padding-bottom: 0px;
+}
+
+.block-divider-wide {
+    max-width: 100%;
+    border-top: 1px solid;
     padding-bottom: 0px;
 }
 
@@ -166,10 +172,16 @@ h4 {
 /* Carousel page */
 
 .llandegfedd,
-.cardiff-bay {
+.cardiff-bay,
+.canal,
+.river-wye {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
+
+
+
+
 
 .carousel-item {
     max-height: 75vh;
