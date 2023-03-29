@@ -164,9 +164,8 @@ h4 {
 
 /* Contact page */
 .contact {
-    margin: 50px 50px;
-    border: 2px solid #219EBC;
-    border-radius: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Carousel page */
