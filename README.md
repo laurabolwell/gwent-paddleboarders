@@ -8,14 +8,6 @@ The project is a website for a social group of paddleboarders based in South Wal
 
 The site provides some basic information about the group but the main focus is to provide information about the meet-ups which take place each week. It also shows some photographs from previous social paddles and has a contact page should a user wish to get in touch.
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
-
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
-
-In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
-
 Consider adding a mockup image using the "Am I Responsive" website.
 Here's your deployed site as an example:
 https://ui.dev/amiresponsive?url=https://laurabolwell.github.io/gwent-paddleboarders
@@ -36,38 +28,24 @@ https://pandao.github.io/editor.md/en.html
 
 ## UX
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
 The end user of this project are paddleboarders in South Wales who wish to paddle with the group. The users range in age from 18 to 60 and the site would mainly be accessed on mobile devices. 
 
 The end user wants to be able to find out details of social paddles taking place and how to join one. 
 Other features are that the user will be able to see photographs of recent paddles, see maps and current weather conditions at paddle locations, get in touch with the organisers, and easily navigate to the group's social media pages.
 
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### Colour Scheme
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+![screenshot](documentation/coolors-palette.png)
 
-INSERT COLOUR PALETTE IMAGE HERE!!
+The website uses a palette of blues to tie in with the water theme and to give a sense of calm. The colour palette was created using the [coolors.co](https://coolors.co/generate) website.
 
-The website uses a palette of blues to tie in with the water theme and to give a sense of calm. I created the palette using the [coolors.co](https://coolors.co/generate) website.
+- \#023047 used as the background for the navbar and footer, and used for text and headings.
+- \#219EBC used as a background for sections of the page, and for block dividing lines.
+- \#FFFFFF used as a background for sections of the page, and for text on non-white backgrounds.
 
-- \#023047 used as the background for the navbar and footer, and used for text and headings
-- \#219EBC used as a background for sections of the page, and for block dividing lines
-- \#FFFFFF used as a background for sections of the page, and for text on non-white backgrounds
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-
-
-I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 
 ### Typography
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 Google Fonts:
 * [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for headings and the navbar.
@@ -76,35 +54,30 @@ Google Fonts:
 [Font Awesome](www.fontawesome.com) icons were used throughout the site, such as the social media icons in the footer
 
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+
 
 ## User Stories
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, list all of your user stories for the project.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ### New Site Users
 
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to find out what the group is about, so that I can see if it would be suitable for me to join.
+- As a new site user, I would like to view photos of previous paddles, so that I can get a feel for if the group would be suitable for me.
+- As a new site user, I would like to find out where and when the group meets, so that I can join the group.
+- As a new site user, I would like to find out how to join a group paddle and if there is any cost, so that I can join the group.
+- As a new site user, I would like to find out about parking at paddle locations, so that I will know where to park my car when I join the group.
+- As a new site user, I would like to contact the group organisers, so that I can ask any other questions I may have.
 
 ### Returning Site Users
 
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to find the schedule, so that I can check the times of group paddles.
+- As a returning site user, I would like to check the weather conditions at paddle spots, so that I can decide whether to join a particular paddle.
+- As a returning site user, I would like to view photogaphs of social paddles, so that I can show family and friends.
+- As a returning site user, I would like to contact the group organisers, so that I can suggest new paddle locations.
+- As a returning site user, I would like to easily find the group's social media pages, so that I can connect with other paddlers in the group.
 
 ### Site Admin
 
-- As a site administrator, I should be able to ____________, so that I can ____________.
+- As a site administrator, I should be able to have all paddle information displayed, so that I can update all members and potential members on locations, times and other details eg parking costs.
 - As a site administrator, I should be able to ____________, so that I can ____________.
 - As a site administrator, I should be able to ____________, so that I can ____________.
 - As a site administrator, I should be able to ____________, so that I can ____________.
