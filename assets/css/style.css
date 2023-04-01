@@ -68,12 +68,6 @@ h4 {
     padding-bottom: 0px;
 }
 
-.block-divider-wide {
-    max-width: 100%;
-    border-top: 1px solid;
-    padding-bottom: 0px;
-}
-
 .hero-outer {
     height: 100vh;
     background: url("../images/hero-image.jpg") no-repeat center center fixed;
@@ -165,14 +159,19 @@ h4 {
     padding-bottom: 50px;
 }
 
-/* Carousel page */
+/* Gallery page */
 
 .llandegfedd,
 .cardiff-bay,
 .canal,
 .river-wye {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.cardiff-bay,
+.river-wye {
+    background-color: #bce0f1;
 }
 
 .carousel-item {
