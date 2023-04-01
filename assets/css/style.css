@@ -178,10 +178,6 @@ h4 {
     padding-bottom: 40px;
 }
 
-
-
-
-
 .carousel-item {
     max-height: 75vh;
     object-fit: contain;
@@ -191,8 +187,9 @@ h4 {
 
 .navbar {
     background: #023047;
-    height: 100px;
     padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .navbar-toggler i {
