@@ -5,19 +5,16 @@ body {
 
 /* Colors */
 
-.tuesday {
+.tuesday,
+.saturday {
     background-color: #fff;
     color: #023047
 }
 
-.thursday {
-    background-color: #219EBC;
-    color: #fff;
-}
-
-.saturday {
-    background-color: #023047;
-    color: #fff;
+.thursday,
+.sunday {
+    background-color: #bce0f1;
+    color: #023047;
 }
 
 
@@ -93,8 +90,8 @@ h4 {
 }
 
 .benefits {
-    color: #ffffff;
-    background-color: #219ebc;
+    color: #023047;
+    background-color: #bce0f1;
     padding: 100px 40px;
 }
 
@@ -110,7 +107,7 @@ h4 {
     border-radius: 50%;
     font-size: 24px;
     text-align: center;
-    color: #219EBC;
+    color: #023047;
     background: #ffffff;
 }
 
