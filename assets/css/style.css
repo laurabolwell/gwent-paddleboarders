@@ -16,6 +16,10 @@ body {
     color: var(--white);
 }
 
+.text-mid-blue {
+    color: var(--mid-blue)
+}
+
 .text-muted {
     font-size: smaller;
 }
@@ -149,12 +153,6 @@ h4 {
     margin-bottom: 20px;
 }
 
-/* Contact page */
-.contact {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 /* Gallery page */
 
 .llandegfedd,
@@ -168,6 +166,21 @@ h4 {
 .carousel-item {
     max-height: 75vh;
     object-fit: contain;
+}
+
+/* Contact page */
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Confirmation page */
+
+.confirmation {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* Navbar */
