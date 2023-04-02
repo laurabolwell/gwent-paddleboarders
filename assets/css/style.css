@@ -199,9 +199,7 @@ h4 {
 
 .navbar {
     background: var(--navy);
-    padding-left: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 10px;
 }
 
 .navbar-toggler i {
@@ -219,10 +217,6 @@ h4 {
 
 .navbar-brand:hover {
     color: var(--light-blue);
-}
-
-.navbar-nav .nav-item {
-    padding-right: 6px;
 }
 
 .navbar-nav .nav-link {
