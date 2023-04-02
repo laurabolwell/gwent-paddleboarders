@@ -1,22 +1,20 @@
+:root {
+    --navy: #023047;
+    --mid-blue: #227596;
+    --light-blue: #BCE1F0;
+    --white: #FFF;
+  }
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #023047
+    background-color: var(--white);
+    color: var(--navy);
 }
 
-/* Colors */
-
-.tuesday,
-.saturday {
-    background-color: #fff;
-    color: #023047
+.bg-mid-blue {
+    background-color: var(--mid-blue);
+    color: var(--white);
 }
-
-.thursday,
-.sunday {
-    background-color: #bce0f1;
-    color: #023047;
-}
-
 
 .text-muted {
     font-size: smaller;
@@ -30,19 +28,16 @@ body {
 }
 
 h2 {
-    font-size: 26px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
 h3 {
-    font-size: 24px;
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
 h4 {
-    font-size: 20px;
     padding-top: 12px;
     padding-bottom: 12px;
     letter-spacing: 1px;
@@ -54,13 +49,13 @@ h4 {
     margin: auto;
     margin-top: 16px;
     margin-bottom: 16px;
-    color: #219EBC;
+    color: var(--mid-blue);
     opacity: 1;
     padding-bottom: 16px;
 }
 
 .block-divider-white {
-    color: #fff;
+    color: var(--white);
 }
 
 .block-divider-short {
@@ -77,15 +72,9 @@ h4 {
     -o-background-size: cover;
 }
 
-.about {
-    color: #023047;
-    background-color: #ffffff;
-    padding: 100px 40px;
-}
-
-.benefits {
-    color: #023047;
-    background-color: #bce0f1;
+.about,
+.benefits,
+.schedule {
     padding: 100px 40px;
 }
 
@@ -95,20 +84,14 @@ h4 {
 }
 
 .benefit i {
+    color: var(--mid-blue);
+    background: var(--white);
     width: 50px;
     height: 50px;
     padding: 13px 0;
     border-radius: 50%;
     font-size: 24px;
     text-align: center;
-    color: #023047;
-    background: #ffffff;
-}
-
-.schedule {
-    color: #023047;
-    background-color: #fff;
-    padding: 100px 40px;
 }
 
 .paddle-spot {
@@ -116,7 +99,7 @@ h4 {
 }
 
 .schedule-card {
-    border: 2px solid #219EBC;
+    border: 2px solid var(--mid-blue);
     border-radius: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -125,12 +108,22 @@ h4 {
 }
 
 .btn-blue {
-    background-color: #219EBC;
-    color: #fff;
+    background-color: var(--mid-blue);
+    color: var(--white);
     margin-bottom: 10px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-blue:hover {
+    background-color: var(--navy);
+    color: var(--white);
 }
 
 /* Schedule page */
+
 
 .tuesday,
 .thursday,
@@ -150,7 +143,7 @@ h4 {
 .map, .conditions {
     width: 100%;
     height: auto;
-    border: 2px solid #023047 !important;
+    border: 2px solid var(--navy) !important;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -172,11 +165,6 @@ h4 {
     padding-bottom: 50px;
 }
 
-.cardiff-bay,
-.river-wye {
-    background-color: #bce0f1;
-}
-
 .carousel-item {
     max-height: 75vh;
     object-fit: contain;
@@ -185,19 +173,19 @@ h4 {
 /* Navbar */
 
 .navbar {
-    background: #023047;
+    background: var(--navy);
     padding-left: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .navbar-toggler i {
-    color: #ffffff;
+    color: var(--white);
     size: 20px;
 }
 
 .navbar-brand {
-    color: #ffffff;
+    color: var(--white);
     letter-spacing: 2px;
     font-size: 20px;
     text-align: left;
@@ -205,7 +193,7 @@ h4 {
 
 
 .navbar-brand:hover {
-    color: #8ecae6;
+    color: var(--light-blue);
 }
 
 .navbar-nav .nav-item {
@@ -213,7 +201,7 @@ h4 {
 }
 
 .navbar-nav .nav-link {
-    color: #ffffff;
+    color: var(--white);
     font-family: 'Montserrat', sans-serif;
     font-weight: regular;
     font-size: 20px;
@@ -221,17 +209,17 @@ h4 {
 }
 
 .navbar-nav .nav-link.active {
-    color: #8ecae6;
+    color: var(--light-blue);
 }
 
 .navbar-nav .nav-link:hover {
-    color: #8ecae6;
+    color: var(--light-blue);
 }
 
 /* Footer */
 
 footer {
-    background-color: #023047;
+    background-color: var(--navy);
     height: 70px;
     text-align: center;
     padding-top: 10px; 
@@ -244,8 +232,8 @@ footer i {
     border-radius: 50%;
     font-size: 24px;
     text-align: center;
-    color: #023047;
-    background: #ffffff;
+    color: var(--mid-blue);
+    background: var(--white);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -253,6 +241,6 @@ footer i {
 }
 
 footer a i:hover {
-    color: #ffffff;
-    background-color: #219EBC;
+    color: var(--white);
+    background-color: var(--mid-blue);
 }
