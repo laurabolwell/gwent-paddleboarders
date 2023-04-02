@@ -105,6 +105,7 @@ h4 {
 .schedule-card {
     border: 2px solid var(--mid-blue);
     border-radius: 20px;
+    height: 100%;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
@@ -114,7 +115,6 @@ h4 {
 .btn-blue {
     background-color: var(--mid-blue);
     color: var(--white);
-    margin-bottom: 10px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -126,24 +126,36 @@ h4 {
     color: var(--white);
 }
 
+.btn-white {
+    background-color: var(--white);
+    color: var(--mid-blue);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-white:hover {
+    background-color: var(--mid-blue);
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
 /* Schedule page */
 
 
-.tuesday,
-.thursday,
-.saturday,
-.sunday {
+.schedule-section {
     padding: 50px 60px;
 }
     
 
-.tuesday-info,
-.thursday-info,
-.saturday-info,
-.sunday-info {
+.schedule-info {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+
+
 .map, .conditions {
     width: 100%;
     height: auto;
