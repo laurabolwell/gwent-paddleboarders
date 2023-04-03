@@ -76,10 +76,17 @@ h4 {
     -o-background-size: cover;
 }
 
-.about,
-.benefits,
-.schedule {
+.homepage-section {
     padding: 100px 40px;
+}
+
+#scroll-to-about {
+    color: var(--white);
+    font-size: 50px;
+  }
+
+#scroll-to-about:hover {
+    color: var(--light-blue)
 }
 
 .benefit {
