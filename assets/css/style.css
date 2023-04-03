@@ -136,9 +136,22 @@ h4 {
 }
 
 .btn-white:hover {
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+.btn-navy {
+    background-color: var(--navy);
+    color: var(--white);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-navy:hover {
     background-color: var(--mid-blue);
     color: var(--white);
-    border: 1px solid var(--white);
 }
 
 /* Schedule page */
