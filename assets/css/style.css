@@ -16,6 +16,14 @@ body {
     color: var(--white);
 }
 
+.border-navy {
+    border: 2px solid var(--navy) !important;
+}
+
+.border-white {
+    border: 2px solid var(--white) !important;
+}
+
 .text-mid-blue {
     color: var(--mid-blue)
 }
@@ -180,11 +188,12 @@ h4 {
 .map, .conditions {
     width: 100%;
     height: auto;
-    border: 2px solid var(--navy) !important;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
 
 /* Gallery page */
 
