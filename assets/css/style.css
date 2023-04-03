@@ -266,6 +266,18 @@ h4 {
     color: var(--light-blue);
 }
 
+.navbar .navbar-toggler {
+    border:none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid var(--white);
+}
+
 /* Grow */
 .hvr-grow {
     display: inline-block;
