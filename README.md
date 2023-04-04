@@ -8,23 +8,14 @@ The project is a website for a social group of paddleboarders based in South Wal
 
 The site provides some basic information about the group but the main focus is to provide information about the meet-ups which take place each week. It also shows some photographs from previous social paddles and has a contact page should a user wish to get in touch.
 
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://laurabolwell.github.io/gwent-paddleboarders
+The website is designed to be fully responsive, allowing visitors to view it on a wide range of devices.
 
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
+![Am I responsive mockup](documentation/amiresponsive.png)
 
-![screenshot](documentation/mockup.png)
+I used [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive?url=https://laurabolwell.github.io/gwent-paddleboarders) to create this image.
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
+[View Gwent Paddleboarders on Github Pages](https://laurabolwell.github.io/gwent-paddleboarders)
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ## UX
 
