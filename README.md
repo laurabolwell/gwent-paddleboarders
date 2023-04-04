@@ -35,15 +35,25 @@ Other features are that the user will be able to see photographs of recent paddl
 
 ### Colour Scheme
 
-![screenshot](documentation/coolors-palette.png)
+![coolors-palette](documentation/coolors-palette.png)
 
-The website uses a palette of blues to tie in with the water theme and to give a sense of calm. The colour palette was created using the [coolors.co](https://coolors.co/generate) website.
+The website uses a palette of blues to tie in with the water theme and to give a sense of calm. I used [coolors.co](https://coolors.co/023047-227596-bce1f0-ffffff) to generate my colour palette.
 
-- \#023047 used as the background for the navbar and footer, and used for text and headings.
-- \#219EBC used as a background for sections of the page, and for block dividing lines.
-- \#FFFFFF used as a background for sections of the page, and for text on non-white backgrounds.
+- \#023047 used as the background for the navbar and footer, and used for text, headings, and buttons.
+- \#227596 used as a background for sections of the page, for block dividing lines, and for buttons.
+- \#BCE1F0 used for hover effects.
+- \#FFFFFF used as a background for sections of the page, block dividing lines, and for text on non-white backgrounds.
 
+I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
+```css
+:root {
+    --navy: #023047;
+    --mid-blue: #227596;
+    --light-blue: #BCE1F0;
+    --white: #FFF;
+}
+```
 
 ### Typography
 
@@ -51,9 +61,7 @@ Google Fonts:
 * [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for headings and the navbar.
 * [Roboto](https://fonts.google.com/specimen/Roboto) was used for the body text.
 
-[Font Awesome](www.fontawesome.com) icons were used throughout the site, such as the social media icons in the footer
-
-
+[Font Awesome](www.fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
 
 
 ## User Stories
