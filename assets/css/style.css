@@ -168,6 +168,7 @@ h4 {
 .btn-navy:hover {
     background-color: var(--mid-blue);
     color: var(--white);
+    border: 1px solid var(--white);
 }
 
 /* Schedule page */
@@ -179,8 +180,8 @@ h4 {
     
 
 .schedule-info {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 12px;
+    padding-right: 40px;
 }
 
 
@@ -265,6 +266,7 @@ h4 {
     font-size: 20px;
     letter-spacing: 1px;
     text-align: right;
+    padding-right: 24px;
 }
 
 .navbar-nav .nav-link.active {
@@ -331,4 +333,25 @@ footer i {
 footer a i:hover {
     color: var(--white);
     background-color: var(--mid-blue);
+}
+
+@media screen and (min-width: 420px) {
+    .navbar-brand-br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .schedule-section {
+        padding: 40px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .schedule-info {
+        padding-right: 10px;
+    }
+    .map, .conditions {
+        width: 80%;
+    }
 }
