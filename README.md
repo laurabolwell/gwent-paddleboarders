@@ -224,11 +224,15 @@ The website is comprised of six pages, four of which are accessible from the nav
 - **Links to jump to each section of the page**
 
     - Across the top of the page just below the navbar there are four buttons which link to each of the four sections of the schedule page. This allows the user to jump straight to the information for the day they are looking for, minimising the amount of scrolling needed. Each button has a hover effect which is visible against both the white and blue background sections of the schedule page.
+    - The buttons are displayed in two rows of two on mobile devices and in one row on all other devices.
+    - The buttons stick to the top of the page when scrolling to enable easier navigation around the page.
 
     Link buttons:
     ![jump links](documentation/features/jump-links.png)
-    Link buttons with hover effect on Thursday:
+    Link buttons with hover effect shown on Thursday:
     ![jump links](documentation/features/jump-links-hover.png)
+
+- **Paddle Information Sections**
 
     - The schedule page has four distinct sections, one for each of the four planned social paddles that take place each week. Each section has some text giving the user vital information about the paddle as well as parking information and any fees that may apply. It also has a safety disclaimer.
     - Within the text there is a button linking to the what3words meeting location. This opens in a new window, or in the what3words app if it is downloaded on the device.
@@ -241,16 +245,25 @@ The website is comprised of six pages, four of which are accessible from the nav
     Single section showing the text, what3words link, Google Map, and Windy.com conditions widget:
     ![single-section](documentation/features/single-section.png)
 
+#### Gallery Page
 
-- **Title for feature #3**
+- **Carousel Sections**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - The gallery page has four distinct sections, one for each of the paddle locations, and each section contains a carousel of images from paddles at that location.
+    - The carousels cycle through the images automatically but also contain controls for users to manually move forward or backwards through the images if they wish to. 
+    -The carousels will give new users a feel for if the group would be suitable for them and will give existing members a chance to see photos of them participating in paddles.
 
-![screenshot](documentation/feature03.png)
+    Carousels for two of the four sections:
+    ![carousel example](documentation/features/gallery-llandegfedd.png)
+    ![carousel example](documentation/features/gallery-cardiff.png)
 
-- **Title for feature #3**
+#### Contact Page
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- **Contact Form**
+
+    - The form contains fields for the users' name, email address, phone number and a message.
+    - The name, email address and message fields must be filled in order to submit the form. If any of this information is missing (or the email address is in an incorrect format), the user will be guided to fill in what they have missed.
+    - The phone number is an optional field. If a user wishes to enter their phone number, it must be entered in the correct format, which the placeholder text describes for the user.
 
 ![screenshot](documentation/feature03.png)
 
