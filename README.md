@@ -1,8 +1,6 @@
 # GWENT PADDLEBOARDERS
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Milestone Project 1 - User-Centric Frontend Development
+### Milestone Project 1 - User-Centric Frontend Development
 
 The project is a website for a social group of paddleboarders based in South Wales. The group originally started as a Facebook group, but has rapidly grown to over 1400 members and as a result the important information about paddleboarding meet-ups is becoming lost in the general chat on the page. 
 
@@ -140,19 +138,117 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
+The website is comprised of six pages, four of which are accessible from the navigation menu (Home, Schedule, Gallery and Contact pages). The fifth page is a confirmation page which is shown when the user submits the form on the contact page, and the sixth is a 404 error page which is shown if a user tries to navigate to an incorrect address within the site. 
+
 ### Existing Features
 
-- **Title for feature #1**
+#### All Pages on the website have: 
+
+- **Navbar**
+
+    - A responsive navigation bar displayed clearly at the top of the page which allows the user to navigate around the site. On the left of the navbar is the name of the club and on the right of the navbar are the links to the website pages: Home, Schedule, Gallery, and Contact.
+    - The nav links are shown in white text while the current active page is shown in a light-blue, this gives the user feedback as to their current position on the site while still providing a good contrast against the navy navbar background colour. 
+    - Hover effects (larger size and changed color) on navbar-brand and the navbar links give instant feedback to the user.
+
+    Navbar with active Home page:
+    ![navbar](documentation/features/navbar.png)
+    Navbar with active home page and hover on Schedule page:
+    ![navbar-hover](documentation/features/navbar-hover.png)
+
+- **Navbar Mobile Toggler**
+
+    - On screen sizes less than 768px, the navbar collapses to a burger toggler. This was implemented to give the site a clean look and prevent the navbar from becoming too cluttered. Both the burger icon and dropdown menu are on the right side of the screen, this provides a good user experience as most users would use their right thumb to click on the icon and then the dropdown menu appears in close proximity to it.
+    - On screen sizes less than 420px, a line break appears between 'Gwent' and 'Paddleboarders' to prevent the burger icon from overflowing onto the next line.
+
+    Collapsed navbar:
+    ![collapsed navbar](documentation/features/navbar-collapsed.png)
+    Collapsed navbar on screens less than 420px:
+    ![collapsed navbar on small screens](documentation/features/navbar-collapsed-small.png)
+    Collapsed navbar with menu open:
+    ![collapsed navbar menu open](documentation/features/navbar-collapsed-open.png)
+    Collapsed navbar with menu open on screens less than 420px:
+    ![Collapsed navbar menu open small screen](documentation/features/navbar-collapsed-small-open.png)
+
+- **Footer**
+
+    - The footer contains links to the Facebook, Instagram, and YouTube sites of the group. It also has a link to the Contact page. Universally recognisable icons were used rather than text to the give the footer a clean look. The icons change color when hovered over to give instant feedback to the user. The three external social media links open in a new page while the Contact page link opens in the current window.
+
+    Footer:
+    ![footer](documentation/features/footer.png)
+    Footer with hover effect on Facebook icon:
+    ![footer-hover](documentation/features/footer-hover.png)
+
+#### Home Page
+
+- **Hero Image with chevron icon**
+
+    - The landing page shows a large image of 2 paddleboarders that covers the full viewport height which gives a clean look to the page. There is a clearly visible chevron icon at the bottom of the screen alerting users that there is further content below this image. Users can either scroll down or click on the icon to reach the next section.
+
+    Homepage Hero Image:
+    ![hero-image](documentation/features/hero-image.png)
+
+- **'About Section**
+
+    - The section gives some information about the group that new users would need to know before joining a paddle. It also lets potential members know that the group does not offer tuition or hire and is not suitable for beginners.
+
+    About Section:
+    ![about](documentation/features/about.png)
+
+- **Benefits Section**
+
+    - This section gives the users some information of benefits of paddleboarding in general and also benefits of paddleboarding in a group.
+    - On large screens the three subsections are displayed in a row, on medium screens two sections are displayed next two each other with the third below, and on small screens the sections are stacked vertically.
+
+    Benefits (small screen):
+    ![benefits](documentation/features/benefits-small.png)
+    Benefits (medium screen):
+    ![benefits](documentation/features/benefits-medium.png)
+    Benefits (large screen):
+    ![benefits](documentation/features/benefits-large.png)
+
+- **Schedule Overview**
+
+    - This section provides a brief overview of the schedule of social paddles taking place each week. There are four cards (one for each of the four paddles) with each showing the day, location and time.
+    - Each card has a button linking to the Schedule page which shows the full information for the paddle. The buttons are large and have a colour-changing hover effect.
+    - On large screens the four cards are displayed in a row, on medium screens they are displayed in two rows of two, and on small screens they are stacked vertically.
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/feature03.png)
 
-- **Title for feature #2**
+- **Title for feature #3**
 
     - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
 
-![screenshot](documentation/feature02.png)
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
+
+- **Title for feature #3**
+
+    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+
+![screenshot](documentation/feature03.png)
 
 - **Title for feature #3**
 
