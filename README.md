@@ -121,24 +121,8 @@ Repeat for any addition wireframe pages you have.
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-## Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should go over the different parts of your project,
-and describe each in a sentence or so.
-
-You will need to explain what value each of the features provides for the user,
-focusing on who this website is for, what it is that they want to achieve,
-and how your project is the best way to help them achieve these things.
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-IMPORTANT: Remember to always include a screenshot of each individual feature!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-The website is comprised of six pages, four of which are accessible from the navigation menu (Home, Schedule, Gallery and Contact pages). The fifth page is a confirmation page which is shown when the user submits the form on the contact page, and the sixth is a 404 error page which is shown if a user tries to navigate to an incorrect address within the site. 
+The website is comprised of six pages, four of which are accessible from the navigation menu (Home, Schedule, Gallery and Contact pages). The fifth page is a confirmation page which is shown when the user submits the form on the contact page, and the sixth is a 404 error page which is shown if a user tries to navigate to an invalid address within the site. 
 
 ### Existing Features
 
@@ -262,42 +246,39 @@ The website is comprised of six pages, four of which are accessible from the nav
 - **Contact Form**
 
     - The form contains fields for the users' name, email address, phone number and a message.
-    - The name, email address and message fields must be filled in order to submit the form. If any of this information is missing (or the email address is in an incorrect format), the user will be guided to fill in what they have missed.
+    - The name, email address and message fields must be filled in order to submit the form, an asterisk next to each of the field names informs the user of this. If any of this information is missing (or the email address is in an incorrect format), the user will be guided to fill in what they have missed.
     - The phone number is an optional field. If a user wishes to enter their phone number, it must be entered in the correct format, which the placeholder text describes for the user.
+    - The 'Send' button changes colour when hovered over.
 
-![screenshot](documentation/feature03.png)
+    Contact Page:
+    ![contact page](documentation/features/contact.png)
 
-- **Title for feature #3**
+#### Confirmation Page
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- **Thank You Message and Automatic Redirection to Homepage**
 
-![screenshot](documentation/feature03.png)
+    - A thank you message informs the user that their message has been successfully sent and gives them a timeframe in which to expect a response.
+    - The confirmation page has a full working navbar and footer if the user wishes to navigate to a new area of the page themselves. 
+    - There is an automatic redirection to the homepage after 10 seconds (with countdown timer).
 
-- **Title for feature #3**
+    Confirmation Page:
+    ![confirmation page](documentation/features/confirmation.png)
+    Confirmation Page Showing Timer Counting Down:
+    ![confirmation page counting down](documentation/features/confirmation-counting-down.png)
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- #### 404 Page
 
-![screenshot](documentation/feature03.png)
+- **Error Message and Automatic Redirection to Homepage**
 
-- **Title for feature #3**
+    - An error message informs the user that they have tried to navigate to an invalid address.
+    - The 404 page has a full working navbar and footer if the user wishes to navigate to a new area of the page themselves.
+    - There is an automatic redirection to the homepage after 10 seconds (with countdown timer).
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    404 Page:
+    ![404 page](documentation/features/404.png)
+    404 Page Showing Timer Counting Down:
+    ![404 page showing countdown](documentation/features/404-counting-down.png)
 
-![screenshot](documentation/feature03.png)
-
-- **Title for feature #3**
-
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
-
-![screenshot](documentation/feature03.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Repeat as necessary for as many features as your site contains.
-
-Hint: the more, the merrier!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Future Features
 
