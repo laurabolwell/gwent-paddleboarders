@@ -200,11 +200,11 @@ The website is comprised of six pages, four of which are accessible from the nav
     - On large screens the three subsections are displayed in a row, on medium screens two sections are displayed next two each other with the third below, and on small screens the sections are stacked vertically.
 
     Benefits (small screen):
-    ![benefits](documentation/features/benefits-small.png)
+    ![benefits-small](documentation/features/benefits-small.png)
     Benefits (medium screen):
-    ![benefits](documentation/features/benefits-medium.png)
+    ![benefits-medium](documentation/features/benefits-medium.png)
     Benefits (large screen):
-    ![benefits](documentation/features/benefits-large.png)
+    ![benefits-large](documentation/features/benefits-large.png)
 
 - **Schedule Overview**
 
@@ -212,13 +212,35 @@ The website is comprised of six pages, four of which are accessible from the nav
     - Each card has a button linking to the Schedule page which shows the full information for the paddle. The buttons are large and have a colour-changing hover effect.
     - On large screens the four cards are displayed in a row, on medium screens they are displayed in two rows of two, and on small screens they are stacked vertically.
 
-![screenshot](documentation/feature03.png)
+    Schedule overview (small screen):
+    ![schedule-overview](documentation/features/schedule-overview-small.png)
+    Schedule overview (medium screen):
+    ![schedule-overview](documentation/features/schedule-overview-medium.png)
+    Schedule overview (large screen):
+    ![schedule-overview](documentation/features/schedule-overview-large.png)
 
-- **Title for feature #3**
+#### Schedule Page
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+- **Links to jump to each section of the page**
 
-![screenshot](documentation/feature03.png)
+    - Across the top of the page just below the navbar there are four buttons which link to each of the four sections of the schedule page. This allows the user to jump straight to the information for the day they are looking for, minimising the amount of scrolling needed. Each button has a hover effect which is visible against both the white and blue background sections of the schedule page.
+
+    Link buttons:
+    ![jump links](documentation/features/jump-links.png)
+    Link buttons with hover effect on Thursday:
+    ![jump links](documentation/features/jump-links-hover.png)
+
+    - The schedule page has four distinct sections, one for each of the four planned social paddles that take place each week. Each section has some text giving the user vital information about the paddle as well as parking information and any fees that may apply. It also has a safety disclaimer.
+    - Within the text there is a button linking to the what3words meeting location. This opens in a new window, or in the what3words app if it is downloaded on the device.
+    - For each section on the page there is a embedded google map showing the meeting location.    
+    - For each section on the page there is a widget showing current wind conditions and how they will change over the next week. This will enable users to see at a glance if the conditions are good enough for them to attend the paddle.
+    - On large screens the text and map/conditions appear side by side but on small screens they are stacked vertically.
+    
+    Zoomed out view showing the four sections:
+    ![four-sections](documentation/features/four-sections.png)
+    Single section showing the text, what3words link, Google Map, and Windy.com conditions widget:
+    ![single-section](documentation/features/single-section.png)
+
 
 - **Title for feature #3**
 
