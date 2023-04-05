@@ -122,9 +122,9 @@ Repeat for any addition wireframe pages you have.
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 
-The website is comprised of six pages, four of which are accessible from the navigation menu (Home, Schedule, Gallery and Contact pages). The fifth page is a confirmation page which is shown when the user submits the form on the contact page, and the sixth is a 404 error page which is shown if a user tries to navigate to an invalid address within the site. 
-
 ### Existing Features
+
+The website is comprised of six pages, four of which are accessible from the navigation menu (Home, Schedule, Gallery and Contact pages). The fifth page is a confirmation page which is shown when the user submits the form on the contact page, and the sixth is a 404 error page which is shown if a user tries to navigate to an invalid address within the site. 
 
 #### All Pages on the website have: 
 
@@ -257,8 +257,8 @@ The website is comprised of six pages, four of which are accessible from the nav
 
 - **Thank You Message and Automatic Redirection to Homepage**
 
-    - A thank you message informs the user that their message has been successfully sent and gives them a timeframe in which to expect a response.
-    - The confirmation page has a full working navbar and footer if the user wishes to navigate to a new area of the page themselves. 
+    - A thank you message informs the user that their message has been successfully sent and gives them a timeframe within which to expect a response.
+    - The confirmation page has a full working navbar and footer if the user wishes to navigate to a new area of the site themselves. 
     - There is an automatic redirection to the homepage after 10 seconds (with countdown timer).
 
     Confirmation Page:
@@ -271,7 +271,7 @@ The website is comprised of six pages, four of which are accessible from the nav
 - **Error Message and Automatic Redirection to Homepage**
 
     - An error message informs the user that they have tried to navigate to an invalid address.
-    - The 404 page has a full working navbar and footer if the user wishes to navigate to a new area of the page themselves.
+    - The 404 page has a full working navbar and footer if the user wishes to navigate to a new area of the site themselves.
     - There is an automatic redirection to the homepage after 10 seconds (with countdown timer).
 
     404 Page:
@@ -282,56 +282,31 @@ The website is comprised of six pages, four of which are accessible from the nav
 
 ### Future Features
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- Booking System
+    - It would sometimes be useful for the organisers to know how many people are planning on attending the paddle, particularly in bad weather when they need to know if anyone will show up. A booking sytstem would help them keep track of this.
+- Equipment Information Page
+    - Information about the various equipment and clothing needed for different water and weather conditions with links to local businesses who sell them.
+- Shop
+    - The group is planning to have branded merchandise made in the near future and a shop page would allow the group members to view and purchase it.
 
-Do you have additional ideas that you'd like to include on your project in the future?
-Fantastic! List them here!
-It's always great to have plans for future improvements!
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- Title for future feature #1
-    - Any additional notes about this feature.
-- Title for future feature #2
-    - Any additional notes about this feature.
-- Title for future feature #3
-    - Any additional notes about this feature.
 
 ## Tools & Technologies Used
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
-- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
-- [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used for an enhanced responsive layout.
-- [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Python](https://www.python.org) used as the back-end programming language.
+- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable colours throughout the site.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used in conjunction with the [Bootstrap](getbootstrap.com) classes for an enhanced responsive layout.
+- [Bootstrap](getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
+- [JavaScript](https://www.javascript.com) used for user interaction on the navbar mobile toggler and the countdown timer, implemented through [Bootstrap](getbootstrap.com).
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
-- [Bootstrap](https://getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Materialize](https://materializecss.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [Flask](https://flask.palletsprojects.com) used as the Python framework for the site.
-- [Django](https://www.djangoproject.com) used as the Python framework for the site.
-- [MongoDB](https://www.mongodb.com) used as the non-relational database management with Flask.
-- [SQLAlchemy](https://www.sqlalchemy.org) used as the relational database management with Flask.
-- [PostgreSQL](https://www.postgresql.org) used as the relational database management.
-- [ElephantSQL](https://www.elephantsql.com) used as the Postgres database.
-- [Heroku](https://www.heroku.com) used for hosting the deployed back-end site.
-- [Cloudinary](https://cloudinary.com) used for online static file storage.
-- [Stripe](https://stripe.com) used for online secure payments of ecommerce products/services.
-- [AWS S3](https://aws.amazon.com/s3) used for online static file storage.
+- [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder/) used to help generate the Markdown files.
+- [Tiny PNG](tinypng.com) used to compress images.
+- [Favicon.io](favicon.io) used to create favicon.
+- [Am I Responsive?](https://ui.dev/amiresponsive) used to show the website on a range of devices.
+- [Hover.css](https://ianlunn.github.io/Hover/) used to create hover effects for the navbar.
 
 ## Testing
 
@@ -381,11 +356,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+There are no known differences between the local and deployed version.
 
 ## Credits
 
@@ -411,57 +382,28 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [Bootstrap](https://getbootstrap.com/docs/5.2/components/navbar/#how-it-works) | entire site | navbar including mobile toggler |
 | [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) | entire site | responsive HTML/CSS/JS navbar |
 | [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | contact page | interactive pop-up (modal) |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
-| [Grid Garden](https://cssgridgarden.com) | entire site | modern responsive layouts |
 | [StackOverflow](https://stackoverflow.com/a/2450976) | quiz page | Fisher-Yates/Knuth shuffle in JS |
-| [YouTube](https://www.youtube.com/watch?v=YL1F4dCUlLc) | leaderboard | using `localStorage()` in JS for high scores |
-| [YouTube](https://www.youtube.com/watch?v=u51Zjlnui4Y) | PP3 terminal | tutorial for adding color to the Python terminal |
-| [strftime](https://strftime.org) | CRUD functionality | helpful tool to format date/time from string |
-| [WhiteNoise](http://whitenoise.evans.io) | entire site | hosting static files on Heroku temporarily |
+
+
 
 ### Media
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any images, videos, or audio files borrowed from online.
-A few examples have been provided below to give you some ideas.
-
-If you're the owner (or a close acquaintance) of all media files, then make sure to specify this.
-Let the assessors know that you have explicit rights to use the media files within your project.
-
-Ideally, you should provide an actual link to every media file used, not just a generic link to the main site!
-The list below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links
-by sending yourself the following command: `!freemedia`.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Pexels](https://www.pexels.com) | entire site | image | favicon on all pages |
-| [Lorem Picsum](https://picsum.photos) | home page | image | hero image background |
-| [Unsplash](https://unsplash.com) | product page | image | sample of fake products |
-| [Pixabay](https://pixabay.com) | gallery page | image | group of photos for gallery |
-| [Wallhere](https://wallhere.com) | footer | image | background wallpaper image in the footer |
-| [This Person Does Not Exist](https://thispersondoesnotexist.com) | testimonials | image | headshots of fake testimonial images |
-| [Audio Micro](https://www.audiomicro.com/free-sound-effects) | game page | audio | free audio files to generate the game sounds |
-| [Videvo](https://www.videvo.net/) | home page | video | background video on the hero section |
+| [Pexels](https://www.pexels.com/photo/people-with-rows-on-paddleboards-987955/) | home page | image | hero image |
+| [Flaticon](https://www.flaticon.com/free-icon/paddle-surf_5130467?term=paddle+board&page=1&position=8&origin=search&related_id=5130467) | entire site | image |image converted to icon and used for favicon  |
+| [B4245 Paddleboarding Facebook Private Group](https://www.facebook.com/groups/273749281620017) | gallery page | image | all gallery images taken from private facebook group with permission from group owner |
 | [TinyPNG](https://tinypng.com) | entire site | image | tool for image compression |
 
 ### Acknowledgements
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my husband Lewis, for believing in me, and supporting me in making this transition into software development.
