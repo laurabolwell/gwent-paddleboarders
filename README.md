@@ -80,14 +80,6 @@ Google Fonts:
 
 ## Wireframes
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
 I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
 
@@ -99,13 +91,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
 
-### About Page Wireframes
+### Schedule Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
+| Mobile | ![screenshot](documentation/wireframes/mobile-schedule.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-schedule.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-schedule.png) |
+
+### Gallery Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile-gallery.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-gallery.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-gallery.png) |
 
 ### Contact Page Wireframes
 
@@ -115,11 +115,21 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Confirmation Page Wireframes
 
-Repeat for any addition wireframe pages you have.
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile-confirmation.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-confirmation.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+### 404 Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Mobile | ![screenshot](documentation/wireframes/mobile-404.png) |
+| Tablet | ![screenshot](documentation/wireframes/tablet-404.png) |
+| Desktop | ![screenshot](documentation/wireframes/desktop-404.png) |
 
 
 ### Existing Features
