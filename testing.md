@@ -2,26 +2,7 @@
 
 Return back to the [README.md](README.md) file.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ## Code Validation
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### HTML
 
@@ -62,16 +43,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 ## Responsiveness
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-
-If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
-It showcases a higher level of manual tests, and can be seen as a positive inclusion!
-
-Sample responsiveness testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
 | Device | Screenshot | Notes |
@@ -86,66 +57,48 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Large Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large.png) | Works as expected |
 | Desktop | ![screenshot](documentation/testing/responsiveness-testing/desktop.png) | Works as expected |
 | XL Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor.png) | Scaling starts to have minor issues |
-| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | Noticeable scaling issues |
-| Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
-| iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
+| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | Minor scaling issues |
 | x | x | repeat for any other tested sizes |
 
 ## Lighthouse Audit
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports.
-Avoid testing the local version (especially if developing in Gitpod), as this can have knock-on effects of performance.
-
-If you don't have Lighthouse in your Developer Tools,
-it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Don't just test the home page (unless it's a single-page application).
-Make sure to test the Lighthouse Audit results for all of your pages.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-Sample Lighthouse testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
-| About | Mobile | ![screenshot](documentation/lighthouse-about-mobile.png) | Some minor warnings |
-| About | Desktop | ![screenshot](documentation/lighthouse-about-desktop.png) | Few warnings |
-| Gallery | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Gallery | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| Home | Mobile | ![screenshot](documentation/testing/lighthouse/home-mobile.png) |  |
+| Home | Desktop | ![screenshot](documentation/testing/lighthouse/home-desktop.png) |  |
+| Schedule | Mobile | ![screenshot](documentation/testing/lighthouse/schedule-mobile.png) |  |
+| Schedule | Desktop | ![screenshot](documentation/testing/lighthouse/schedule-desktop.png) |  |
+| Gallery | Mobile | ![screenshot](documentation/testing/lighthouse/gallery-mobile.png) |  |
+| Gallery | Desktop | ![screenshot](documentation/testing/lighthouse/gallery-desktop.png) | |
+| Contact | Mobile | ![screenshot](documentation/testing/lighthouse/contact-mobile.png) | |
+| Contact | Desktop | ![screenshot](documentation/testing/lighthouse/contact-desktop.png) | |
+| Confirmation | Mobile | ![screenshot](documentation/testing/lighthouse/confirmation-mobile.png) | |
+| Confirmation | Desktop | ![screenshot](documentation/testing/lighthouse/confirmation-desktop.png) | |
+| 404 | Mobile | ![screenshot](documentation/testing/lighthouse/404-mobile.png) | |
+| 404 | Desktop | ![screenshot](documentation/testing/lighthouse/404-desktop.png) | |
+
 
 ## User Story Testing
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+| User Story | Screenshot | |
+| --- | --- | ---|
+| As a new site user, I would like to find out what the group is about, so that I can see if it would be suitable for me to join. | ![screenshot](documentation/features/about.png) | |
+| As a new site user, I would like to view photos of previous paddles, so that I can get a feel for if the group would be suitable for me. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
+| As a new site user, I would like to find out where and when the group meets, so that I can join the group. | ![screenshot](documentation/features/schedule-overview-large.png) | ![screenshot](documentation/features/single-section.png) |
+| As a new site user, I would like to find out how to join a group paddle and if there is any cost, so that I can join the group. | ![screenshot](documentation/features/about.png) | |
+| As a new site user, I would like to find out about parking at paddle locations, so that I will know where to park my car when I join the group. | ![screenshot](documentation/features/single-section.png) | |
+| As a new site user, I would like to contact the group organisers, so that I can ask any other questions I may have. | ![screenshot](documentation/features/contact.png) | |
+| As a returning site user, I would like to find the schedule, so that I can check the times of group paddles. | ![screenshot](documentation/features/schedule-overview-large.png) | ![screenshot](documentation/features/single-section.png)
+| As a returning site user, I would like to check the weather conditions at paddle spots, so that I can decide whether to join a particular paddle. | ![screenshot](documentation/features/single-section.png) | |
+| As a returning site user, I would like to view photogaphs of social paddles, so that I can show family and friends. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
+| As a returning site user, I would like to contact the group organisers, so that I can suggest new paddle locations. | ![screenshot](documentation/features/contact.png) | |
+| As a returning site user, I would like to easily find the group's social media pages, so that I can connect with other paddlers in the group. | ![screenshot](documentation/footer.png) | |
+| As a site administrator, I should be able to have all paddle information displayed, so that I can update all members and potential members on locations, times and other details eg parking costs. | ![screenshot](documentation/features/four-sections.png) | |
+| As a site administrator, I should be able to have images on the site, so that existing members can see photos of themselves from previous paddles and new members can see what our paddles are about. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
+| As a site administrator, I should be able to be contacted by both new and existing members, so that I can listen to any suggestions or answer any queries they may have. | ![screenshot](documentation/features/contact.png) | |
 
-Testing user stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **features** should already align with the **user stories**,
-so this should as simple as creating a table with the user story, matching with the re-used screenshot
-from the respective feature.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-| User Story | Screenshot |
-| --- | --- |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature01.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature02.png) |
-| As a new site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature03.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature04.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature05.png) |
-| As a returning site user, I would like to ____________, so that I can ____________. | ![screenshot](documentation/feature06.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature07.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature08.png) |
-| As a site administrator, I should be able to ____________, so that I can ____________. | ![screenshot](documentation/feature09.png) |
-| repeat for all remaining user stories | x |
 
 ## Bugs
 
@@ -160,17 +113,9 @@ For JavaScript and Python applications, it's best to screenshot the errors to in
 
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
+- Navbar overflow issues
 
-    ![screenshot](documentation/bug01.png)
-
-    - To fix this, I _____________________.
-
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
-
-    ![screenshot](documentation/bug02.png)
-
-    - To fix this, I _____________________.
+    Due to the long page name I had issues with the navbar content overflowing the page width. To overcome this I set the navbar to collapse when the screen size drops below 768px. I also had the issue of the navbar toggler icon dropping below the navbar brand on devices smaller than 420px. To fix this I added a line break between 'Gwent' and 'Paddleboarders' and used a media query so that the line break would only be visible on devices less than 420px.
 
 - Python `'ModuleNotFoundError'` when trying to import module from imported package
 
