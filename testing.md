@@ -29,102 +29,41 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F) | ![screenshot](documentation/testing/html-validation/html-validation-home.png) | Pass: No Errors |
-| Schedule | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fschedule.html) | ![screenshot](documentation/testing/html-validation/html-validation/schedule.png) | Pass: No Errors |
-| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fgallery.html) | ![screenshot](documentation/testing/html-validation/html-validation-gallery.png) | Pass: No Errors |
-| Contact | n/a | ![screenshot](documentation/testing/html-validation/) | Duplicate IDs found, and fixed |
-| Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fconfirmation.html) | ![screenshot](documentation/testing/html-validation/html-validation-confirmation.png) | Pass: No Errors |
-| 404 | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F404.html) | ![screenshot](documentation/testing/html-validation/html-validation-404.png) | Pass: No Errors |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F) | ![screenshot](documentation/testing/code-validation/html-validation-home.png) | Pass: No Errors |
+| Schedule | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fschedule.html) | ![screenshot](documentation/testing/code-validation/html-validation/schedule.png) | Pass: No Errors |
+| Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fgallery.html) | ![screenshot](documentation/testing/code-validation/html-validation-gallery.png) | Pass: No Errors |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fcontact.html) | ![screenshot](documentation/testing/code-validation/) |  |
+| Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fconfirmation.html) | ![screenshot](documentation/testing/code-validation/html-validation-confirmation.png) | Pass: No Errors |
+| 404 | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F404.html) | ![screenshot](documentation/testing/code-validation/html-validation-404.png) | Pass: No Errors |
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-- If you are copying/pasting your HTML code, use this link: https://jigsaw.w3.org/css-validator/#validate_by_input
-- (*recommended*) If you are using the live deployed site, use this link: https://jigsaw.w3.org/css-validator/#validate_by_uri
-
-It's recommended to validate the live site if you only have a single CSS file using the deployed URL.
-This will give you a custom URL as well, which you can use on your testing documentation.
-It makes it easier to return back to the page to validate it again in the future.
-The URL will look something like this:
-
-- https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders
-
-If you have multiple CSS files, then individual [validation by input](https://jigsaw.w3.org/css-validator/#validate_by_input)
-is recommended for the additional CSS files.
-
-**IMPORTANT**: Third-Party tools
-
-If you're using extras like Bootstrap, Materialize, Font Awesome, then sometimes the validator
-will attempt to also validate this code, even if it's not part of your own actual code.
-You are not required to validate the external libraries or frameworks!
-
-Sample CSS code validation documentation (tables are extremely helpful!):
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders) | ![screenshot](documentation/css-validation-style.png) | Pass: No Errors |
-| checkout.css | n/a | ![screenshot](documentation/css-validation-checkout.png) | Pass: No Errors |
-| x | x | x | repeat for all remaining CSS files |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css-validation-style.png) | Pass: All errors shown are from the imported Bootstrap library |
+
 
 ## Browser Compatibility
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing at least 3 different browsers, if available on your system.
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
-| Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
-| Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
-| Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
-| x | x | repeat for any other tested browsers |
+| Chrome | ![screenshot](documentation/testing/browser-testing/chrome-home.png) | Works as expected |
+| Firefox | ![screenshot](documentation/testing/browser-testing/firefox-home.png) | Works as expected |
+| Edge | ![screenshot](documentation/testing/browser-testing/edge-home.png) | Works as expected |
+| Safari | ![screenshot](documentation/) | Minor CSS differences |
+| Brave | ![screenshot](documentation/testing/browser-testing/brave-home.png) | Works as expected |
+| Opera | ![screenshot](documentation/testing/browser-testing/opera-home.png) | Works as expected |
+| Internet Explorer | ![screenshot](documentation/testing/browser-testing/ie-home.png) | Does not work as expected |
+
 
 ## Responsiveness
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is for the following 3 tests:
-- Mobile
-- Tablet
-- Desktop
-
-**IMPORTANT**: You must provide screenshots of the tested responsiveness, to "prove" that you've actually tested them.
-
-Using the "amiresponsive" mockup image (or similar) does not suffice the requirements.
-Consider using some of the built-in device sizes in the Developer Tools.
 
 If you have tested the project on your actual mobile phone or tablet, consider also including screenshots of these as well.
 It showcases a higher level of manual tests, and can be seen as a positive inclusion!
@@ -137,11 +76,17 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Scaling starts to have minor issues |
-| 4K Monitor | ![screenshot](documentation/responsive-4k.png) | Noticeable scaling issues |
+| XS Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-xs.png) | Works as expected |
+| Small Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-small.png) | Works as expected |
+| Medium Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-medium.png) | Works as expected |
+| Large Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-large.png) | Works as expected |
+| Small Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/tablet-small.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/tablet.png) | Works as expected |
+| Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop.png) | Works as expected |
+| Large Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large.png) | Works as expected |
+| Desktop | ![screenshot](documentation/testing/responsiveness-testing/desktop.png) | Works as expected |
+| XL Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor.png) | Scaling starts to have minor issues |
+| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | Noticeable scaling issues |
 | Google Pixel 7 Pro | ![screenshot](documentation/responsive-pixel.png) | Works as expected |
 | iPhone 14 | ![screenshot](documentation/responsive-iphone.png) | Works as expected |
 | x | x | repeat for any other tested sizes |
