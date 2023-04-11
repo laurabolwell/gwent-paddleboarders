@@ -100,82 +100,59 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | As a site administrator, I should be able to be contacted by both new and existing members, so that I can listen to any suggestions or answer any queries they may have. | ![screenshot](documentation/features/contact.png) | |
 
 
-## Bugs
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
-
-For JavaScript and Python applications, it's best to screenshot the errors to include them as well.
-
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+## Bugs and Issues
 
 - Navbar overflow issues
 
     Due to the long page name I had issues with the navbar content overflowing the page width. To overcome this I set the navbar to collapse when the screen size drops below 768px. I also had the issue of the navbar toggler icon dropping below the navbar brand on devices smaller than 420px. To fix this I added a line break between 'Gwent' and 'Paddleboarders' and used a media query so that the line break would only be visible on devices less than 420px.
 
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
+- Visible white gutters on blue background
 
-    ![screenshot](documentation/bug03.png)
+    I had white gutters running down each side of the page even when using the container-fluid class. This was because I was using html section elements and then separate div elements for the bootstrap container/row/column classes. I fixed the issue by removind the unnecessary div elements and adding the appropriate bootstrap class to the section element instead.
 
-    - To fix this, I _____________________.
+- Hero image overflowing below viewport window
 
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
+    I had set my hero image to have height 100vh, with the navbar above it this meant that the bottom of the image (and the chevron icon) had overflowed below the viewport window. To fix this, I gave the navbar position:absolute at the top of the page which meant it now overlays the top of the hero image and the image is the right height for the screen.
 
-    ![screenshot](documentation/bug04.png)
+- Schedule overview card buttons appearing at different heights
 
-    - To fix this, I _____________________.
+    At 1075-1080px, two of the location headings wrap onto a second line, causing the 'Full Details' buttons to sit at different heights. I have fixed this by adding a fixed-height-heading class to all four of these headings and allowing enough room that the text can overflow onto a second line. The buttons are now aligned on all viewport sizes.
 
-- Python `E501 line too long` (93 > 79 characters)
+    Buttons not aligned:\
+    ![screenshot](documentation/issues/schedule-overview-issue.png)\
+    Issue fixed:\
+    ![screenshot](documentation/issues/schedule-overview-fixed.png)
 
-    ![screenshot](documentation/bug04.png)
+- Footer not sitting at the bottom of the page on contact, confirmation and 404 pages
 
-    - To fix this, I _____________________.
+    On some screen sizes the page content does not fill the full viewport height and the footer was above the bottom of the screen with white space below. I tried to fix this by fixing the footer to the bottom of the screen but this created the problem that the footer was now over the content on some other screen sizes. My mentor suggested adding the following code to my CSS which has now fixed the issue.
+    ```
+    html, body {
+        height: 100%;
+    }
+
+    body > footer {
+        : sticky;
+        top: 100vh;
+    }
+    ```
 
 ## Unfixed Bugs
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+- Hero image not displaying correctly on apple devices
 
-You will need to mention unfixed bugs and why they were not fixed.
-This section should include shortcomings of the frameworks or technologies used.
-Although time can be a big variable to consider, paucity of time and difficulty understanding
-implementation is not a valid reason to leave bugs unfixed.
+    The background-attachment:fixed property is causing the hero image to display incorrectly on small apple devices, ie, iphones and ipads. This is because iOS has an issue preventing background-attachment: fixed from being used with background-size: cover. This issue is documented [here](https://caniuse.com/background-attachment), and this site also suggests there will be issues with it on android browsers (unfortunately I don't have any android devices to test).
 
-If you've identified any unfixed bugs, no matter how small, be sure to list them here.
-It's better to be honest and list them, because if it's not documented and an assessor finds the issue,
-they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
+    Incorrectly displayed hero image (iphone11):\
+    ![screenshot](documentation/testing/issues/hero-image-issue.png)\
+    Incorrectly displayed hero image (ipad):\
+    ![screenshot](documentation/testing/issues/hero-image-issue-ipad.png)\
 
-Some examples:
+    In order to overcome this I have removed the background-attachment: fixed property and added it as a media query so that the image will only be fixed on screen sizes larger than 992px. The image now scrolls with the page on mobile and tablet screen sizes which does not look as good as when it is fixed but at least the image displays correctly, and will also fix any potential display issues on android devices as well as the known issues on iOS.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+    Correctly displayed hero image (iphone11):\
+    ![screenshot](documentation/testing/issues/hero-image-fixed.png)\
+    Correctly displayed hero image (ipad):\
+    ![screenshot](documentation/testing/issues/hero-image-fixed-ipad.png)\
 
-- On devices smaller than 375px, the page starts to have `overflow-x` scrolling.
-
-    ![screenshot](documentation/unfixed-bug01.png)
-
-    - Attempted fix: I tried to add additional media queries to handle this, but things started becoming too small to read.
-
-- For PP3, when using a helper `clear()` function, any text above the height of the terminal does not clear, and remains when you scroll up.
-
-    ![screenshot](documentation/unfixed-bug02.png)
-
-    - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
-
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
-
-    ![screenshot](documentation/unfixed-bug03.png)
-
-    - Attempted fix: this is a known warning and acceptable, and my section doesn't require a header since it's dynamically added via JS.
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you legitimately cannot find any unfixed bugs or warnings, then use the following sentence:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-There are no remaining bugs that I am aware of.
- 
-built by: Tim Nelson
+    I am unsure of whether the fixed property causes the hero image to display incorrectly on safari on macOS as I do not have any 
