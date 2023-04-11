@@ -60,7 +60,13 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 
 ## Lighthouse Audit
 
-I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. I have made the following changes to the site following lighthouse suggestions:
+- Add meta description tags to head element of each page
+- Add meta keywords tag to head element of home page
+- Converted hero image and all gallery images to webp format
+- Change text on schedule-overview buttons from 'More Info' to 'Full Details'
+
+The following screenshots show the final lighthouse testing results. 
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -110,7 +116,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 - Hero image overflowing below viewport window
 
-    I had set my hero image to have height 100vh, with the navbar above it this meant that the bottom of the image (and the chevron icon) had overflowed below the viewport window. To fix this, I gave the navbar position:absolute at the top of the page which meant it now overlays the top of the hero image and the image is the right height for the screen.
+    I had set my hero image to have height 100vh, with the navbar above it, this meant that the bottom of the image (and the chevron icon) had overflowed below the viewport window. To fix this, I gave the navbar position:absolute at the top of the page which meant it now overlays the top of the hero image and the image is the right height for the screen.
 
 - Schedule overview card buttons appearing at different heights
 
