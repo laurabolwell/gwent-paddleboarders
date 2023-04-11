@@ -177,6 +177,7 @@ h4 {
     border: none;
 }
 
+/* Navbar toggler styling - code from Slack #project-milestone-1 channel used and adapted */
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
