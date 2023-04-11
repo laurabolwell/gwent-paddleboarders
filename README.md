@@ -350,6 +350,7 @@ The website is comprised of six pages, four of which are accessible from the nav
 - [Favicon.io](favicon.io) used to create favicon.
 - [Am I Responsive?](https://ui.dev/amiresponsive) used to show the website on a range of devices.
 - [Hover.css](https://ianlunn.github.io/Hover/) used to create hover effects for the navbar.
+- [Birme](https://www.birme.net/) used to convert images to webp format.
 
 ## Testing
 
@@ -433,6 +434,7 @@ There are no known differences between the local and deployed version.
 | [B4245 Paddleboarding Facebook Private Group](https://www.facebook.com/groups/273749281620017) | Gallery page | Image | All gallery images taken from private facebook group with permission from group owner |
 | [The Paddleshack](https://thepaddleshack.ie/benefits-of-paddle-boarding/) | Home page | Text | Text adatped for benefits section |
 | [TinyPNG](https://tinypng.com) | Entire site | Image | Tool for image compression |
+| [Birme](https://www.birme.net/) | Gallery page |Image | Tool to convert images to webp format |
 
 ### Acknowledgements
 
