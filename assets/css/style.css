@@ -209,7 +209,7 @@ h4 {
 
 .hero-outer {
     height: 100vh;
-    background: url("../images/hero-image.webp") no-repeat fixed center bottom;
+    background: url("../images/hero-image.webp") no-repeat center bottom;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -366,8 +366,8 @@ footer a i:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .hero-outer {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
