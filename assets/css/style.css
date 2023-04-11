@@ -13,6 +13,10 @@ body {
     color: var(--navy);
 }
 
+html, body {
+    height: 100%;
+}
+
 .text-muted {
     font-size: smaller;
 }
@@ -307,6 +311,11 @@ h4 {
 }
 
 /* FOOTER */
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
 
 footer {
     background-color: var(--navy);
