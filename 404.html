@@ -92,12 +92,13 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
     <script>
-        var timeleft = 10;
-        var downloadTimer = setInterval(function () {
+        let timeleft = 10;
+        let downloadTimer = setInterval(function() {
             timeleft--;
             document.getElementById("countdowntimer").textContent = timeleft;
-            if (timeleft <= 0)
+            if (timeleft <= 0) {
                 clearInterval(downloadTimer);
+            }
         }, 1000);
     </script>
 </body>
