@@ -13,7 +13,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F) | ![screenshot](documentation/testing/code-validation/html-validation-home.png) | Pass: No Errors |
 | Schedule | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fschedule.html) | ![screenshot](documentation/testing/code-validation/html-validation-schedule.png) | Pass: No Errors |
 | Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fgallery.html) | ![screenshot](documentation/testing/code-validation/html-validation-gallery.png) | Pass: No Errors |
-| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fcontact.html) | ![screenshot](documentation/testing/code-validation/) |  |
+| Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fcontact.html) | ![screenshot](documentation/testing/code-validation/html-validation-contact.png) | Pass: No Errors |
 | Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fconfirmation.html) | ![screenshot](documentation/testing/code-validation/html-validation-confirmation.png) | Pass: No Errors |
 | 404 | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F404.html) | ![screenshot](documentation/testing/code-validation/html-validation-404.png) | Pass: No Errors |
 
