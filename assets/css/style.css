@@ -1,3 +1,5 @@
+/* GLOBAL STYLES */
+
 :root {
     --navy: #023047;
     --mid-blue: #227596;
@@ -11,6 +13,11 @@ body {
     color: var(--navy);
 }
 
+.text-muted {
+    font-size: smaller;
+}
+
+/* Colours */
 .bg-mid-blue {
     background-color: var(--mid-blue);
     color: var(--white);
@@ -28,10 +35,7 @@ body {
     color: var(--mid-blue)
 }
 
-.text-muted {
-    font-size: smaller;
-}
-
+/* Headings */
 .heading {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -44,17 +48,13 @@ h2 {
     padding-bottom: 16px;
 }
 
-h3 {
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-h4 {
+h3, h4 {
     padding-top: 12px;
     padding-bottom: 12px;
     letter-spacing: 1px;
 }
 
+/* Block dividers */
 .block-divider {
     max-width: 90px;
     border-top: 3px solid;
@@ -75,10 +75,133 @@ h4 {
     padding-bottom: 0px;
 }
 
+/* Buttons */
+.btn-blue {
+    background-color: var(--mid-blue);
+    color: var(--white);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-blue:hover {
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+.btn-white {
+    background-color: var(--white);
+    color: var(--mid-blue);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-white:hover {
+    background-color: var(--navy);
+    color: var(--white);
+}
+
+.btn-navy {
+    background-color: var(--navy);
+    color: var(--white);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.btn-navy:hover {
+    background-color: var(--mid-blue);
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+/* NAVBAR */
+
+.navbar {
+    background: var(--navy);
+    padding: 30px 10px;
+}
+
+.navbar-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.navbar-toggler i {
+    color: var(--white);
+}
+
+.navbar-brand {
+    color: var(--white);
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 8px;
+    margin: 0;
+}
+
+.navbar-brand:hover {
+    color: var(--light-blue);
+}
+
+.navbar-nav .nav-link {
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: right;
+    padding-right: 24px;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--light-blue);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--light-blue);
+}
+
+.navbar .navbar-toggler {
+    border:none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 2px solid var(--white);
+}
+
+/* Hover styling - hover.css from htt[s://ianlunn.github.io/Hover/ */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+/* HOMEPAGE */
+
 .hero-outer {
     height: 100vh;
-    /* position: relative; */
-    background: url("../images/hero-image.webp") no-repeat center center fixed;
+    background: url("../images/hero-image.webp") no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -130,63 +253,16 @@ h4 {
     margin-bottom: 20px;
 }
 
-.btn-blue {
-    background-color: var(--mid-blue);
-    color: var(--white);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.btn-blue:hover {
-    background-color: var(--navy);
-    color: var(--white);
-}
-
-.btn-white {
-    background-color: var(--white);
-    color: var(--mid-blue);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.btn-white:hover {
-    background-color: var(--navy);
-    color: var(--white);
-}
-
-.btn-navy {
-    background-color: var(--navy);
-    color: var(--white);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.btn-navy:hover {
-    background-color: var(--mid-blue);
-    color: var(--white);
-    border: 1px solid var(--white);
-}
-
-/* Schedule page */
-
+/* SCHEDULE PAGE */
 
 .schedule-section {
     padding: 50px 60px;
 }
     
-
 .schedule-info {
     padding-left: 12px;
     padding-right: 40px;
 }
-
-
 
 .map, .conditions {
     width: 100%;
@@ -196,9 +272,7 @@ h4 {
     margin-bottom: 20px;
 }
 
-
-
-/* Gallery page */
+/* GALLERY PAGE */
 
 .llandegfedd,
 .cardiff-bay,
@@ -213,100 +287,21 @@ h4 {
     object-fit: contain;
 }
 
-/* Contact page */
+/* CONTACT PAGE */
 
 .contact {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-/* Confirmation page */
+/* CONFIRMATION PAGE */
 
 .confirmation {
     text-align: center;
     padding: 60px 20px;
 }
 
-/* Navbar */
-
-.navbar {
-    background: var(--navy);
-    padding: 30px 10px;
-}
-
-.navbar-home {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-}
-
-.navbar-toggler i {
-    color: var(--white);
-}
-
-.navbar-brand {
-    color: var(--white);
-    letter-spacing: 2px;
-    font-size: 20px;
-    text-align: left;
-    padding-left: 8px;
-    margin: 0;
-}
-
-
-.navbar-brand:hover {
-    color: var(--light-blue);
-}
-
-.navbar-nav .nav-link {
-    color: var(--white);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
-    text-align: right;
-    padding-right: 24px;
-}
-
-.navbar-nav .nav-link.active {
-    color: var(--light-blue);
-}
-
-.navbar-nav .nav-link:hover {
-    color: var(--light-blue);
-}
-
-.navbar .navbar-toggler {
-    border:none;
-}
-
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 2px solid var(--white);
-}
-
-/* Grow */
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-  }
-  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-
-/* Footer */
+/* FOOTER */
 
 footer {
     background-color: var(--navy);
@@ -335,12 +330,16 @@ footer a i:hover {
     background-color: var(--mid-blue);
 }
 
+/* MEDIA QUERIES */
+
+/* Adds a line break between 'Gwent' and 'Paddleboarders' to stop navbar toggler dropping below navbar-brand */
 @media screen and (min-width: 420px) {
     .navbar-brand-br {
         display: none;
     }
 }
 
+/* Adjusts padding of schedule page for smaller devices */
 @media screen and (max-width: 992px) {
     .schedule-section {
         padding: 40px 40px;
