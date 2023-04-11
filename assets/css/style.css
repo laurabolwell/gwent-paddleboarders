@@ -372,7 +372,7 @@ footer a i:hover {
 }
 
 /* Fixes image when scrolling on larger screens */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .hero-outer {
         background-attachment: fixed;
     }
