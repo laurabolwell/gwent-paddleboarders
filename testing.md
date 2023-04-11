@@ -57,7 +57,8 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Desktop | ![screenshot](documentation/testing/responsiveness-testing/desktop.png) | Works as expected |
 | XL Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor.png) | Scaling starts to have minor issues |
 | 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | Scaling issues |
-| x | x | repeat for any other tested sizes |
+| iphone11 | ![screenshot](documentation/testing/responsiveness-testing/iphone11.png) | Works as expected |
+| ipad | ![screenshot](documentation/testing/responsiveness-testing/ipad.png) | Works as expected |
 
 ## Lighthouse Audit
 
