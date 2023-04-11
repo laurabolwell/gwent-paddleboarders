@@ -2,7 +2,7 @@
 
 ### Milestone Project 1 - User-Centric Frontend Development
 
-Gwent Paddleboarders is a site for a social group of paddleboarders based in South Wales. It is run by a group of volunteers who want to grow the local paddleboard community, building connections and providing ample opportunities so that people never have to paddle alone.
+Gwent Paddleboarders is a site for a social group of paddleboarders based in South Wales. It is run by a group of volunteers who want to grow the local paddleboard community, build connections and provide ample opportunities so that people never have to paddle alone.
 
 The site provides some basic information about the group but the main focus is to provide information about the meet-ups which take place each week. It also shows some photographs from previous social paddles and has a contact page should a user wish to get in touch.
 
@@ -340,7 +340,7 @@ The website is comprised of six pages, four of which are accessible from the nav
 - [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable colours throughout the site.
 - [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [CSS Grid](https://www.w3schools.com/css/css_grid.asp) used in conjunction with the [Bootstrap](getbootstrap.com) classes for an enhanced responsive layout.
 - [Bootstrap](getbootstrap.com) used as the front-end CSS framework for modern responsiveness and pre-built components.
-- [JavaScript](https://www.javascript.com) used for user interaction on the navbar mobile toggler and the countdown timer, implemented through [Bootstrap](getbootstrap.com).
+- [JavaScript](https://www.javascript.com) used for the countdown timer and user interaction on the navbar mobile toggler, implemented through [Bootstrap](getbootstrap.com).
 - [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
@@ -408,10 +408,14 @@ There are no known differences between the local and deployed version.
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | Tool to help generate the Markdown files |
+| [Font Awesome](https://fontawesome.com/kits/d2b22e28d8/icons) | Homepage | Icons used in benefits section and for chevron on hero image|
+| [Font Awesome](https://fontawesome.com/kits/d2b22e28d8/icons) | Footer | Footer icons |
 | [Bootstrap](https://getbootstrap.com/docs/5.2/components/navbar/#how-it-works) | Entire site | Navbar including mobile toggler |
-| [Bootstrap](https://getbootstrap.com/docs/5.2/components/carousel/#how-it-works) | Gallery page | Carousel with controls code used |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
+| [Bootstrap](https://getbootstrap.com/docs/5.2/components/carousel/#how-it-works) | Gallery page | Carousel with controls |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/) | Contact page | Forms |
+| [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) | Entire site | Bootstrap classes used for responsiveness and styling |
 | [W3Schools](https://www.w3schools.com/html/html_form_elements.asp) | Contact page | Used for form elements |
+| [Chris Beams](https://chris.beams.io/posts/git-commit) | version control | "How to Write a Git Commit Message" |
 | [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | Entire site | How to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | Entire site | Modern responsive layouts |
 | [Slack](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1593185727369600) | Entire site | Border on navbar toggler icon |
