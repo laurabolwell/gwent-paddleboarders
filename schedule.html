@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gwent Paddleboarders Schedule - See the full details of our social paddles">
+    <!-- Imports for bootstrap, font awesome, google fonts, stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/d2b22e28d8.js" crossorigin="anonymous"></script>
@@ -15,13 +16,15 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
     <title>Gwent Paddleboarders | Schedule</title>
 </head>
 
 <body>
+
     <header>
-        <!-- Navbar -->
+        <!-- NAVBAR - Bootstrap code used and modified -->
         <nav class="navbar navbar-expand-md bg-color-navbar">
             <a class="navbar-brand heading hvr-grow" href="index.html">Gwent <br
                     class="navbar-brand-br">Paddleboarders</a>
@@ -47,22 +50,28 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid g-0">
-        <div class="row justify-content-around sticky-top g-0">
-            <div class="col-5 col-sm-3 text-center">
-                <a class="btn rounded-pill btn-navy mt-2 heading" href="#tuesday">Tuesday</a>
-            </div>
-            <div class="col-5 col-sm-3 text-center">
-                <a class="btn rounded-pill btn-navy mt-2 heading" href="#thursday">Thursday</a>
-            </div>
-            <div class="col-5 col-sm-3 text-center">
-                <a class="btn rounded-pill btn-navy mt-2 heading" href="#saturday">Saturday</a>
-            </div>
-            <div class="col-5 col-sm-3 text-center">
-                <a class="btn rounded-pill btn-navy mt-2 heading" href="#sunday">Sunday</a>
+
+    <main>
+        <!-- Links to skip to each section of the page -->
+        <div class="container-fluid">
+            <div class="row justify-content-around sticky-top">
+                <div class="col-5 col-sm-3 text-center">
+                    <a class="btn rounded-pill btn-navy mt-2 heading" href="#tuesday">Tuesday</a>
+                </div>
+                <div class="col-5 col-sm-3 text-center">
+                    <a class="btn rounded-pill btn-navy mt-2 heading" href="#thursday">Thursday</a>
+                </div>
+                <div class="col-5 col-sm-3 text-center">
+                    <a class="btn rounded-pill btn-navy mt-2 heading" href="#saturday">Saturday</a>
+                </div>
+                <div class="col-5 col-sm-3 text-center">
+                    <a class="btn rounded-pill btn-navy mt-2 heading" href="#sunday">Sunday</a>
+                </div>
             </div>
         </div>
-        <section id="tuesday" class="schedule-section">
+        <!-- TUESDAY -->
+        <section class="container-fluid schedule-section" id="tuesday">
+            <!-- Tuesday heading -->
             <div class="row justify-content-center">
                 <div class="col heading">
                     <h2 class="heading">Tuesday</h2>
@@ -71,6 +80,7 @@
                 </div>
             </div>
             <div class="row justify-content-around">
+                <!-- Tuesday info -->
                 <div class="col-12 col-md-7 col-lg-6 schedule-info">
                     <h4 class="heading">On the water for 5pm</h4>
                     <p>We launch from directly in front of the watersports centre.
@@ -97,12 +107,14 @@
 
                 </div>
                 <div class="col-12 col-md-5 col-lg-6 my-auto text-center">
+                    <!-- Tuesday map -->
                     <div>
                         <iframe class="map border-navy"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9895.070606681853!2d-2.9837478166809865!3d51.68239591462037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871ddaec89ca5a9%3A0xea1e43490e2353ea!2sLlandegfedd%20Lake%20-%20Visitor%20%26%20Activity%20Centre!5e0!3m2!1sen!2suk!4v1679939913154!5m2!1sen!2suk"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <!-- Tuesday weather conditions -->
                     <div>
                         <iframe class="conditions border-navy" width="650" height="450"
                             src="https://embed.windy.com/embed2.html?lat=51.696&lon=-2.971&detailLat=51.690&detailLon=-2.972&width=650&height=450&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0C&radarRange=-1"></iframe>
@@ -110,7 +122,9 @@
                 </div>
             </div>
         </section>
-        <section id="thursday" class="schedule-section bg-mid-blue">
+        <!-- THURSDAY -->
+        <section class="container-fluid schedule-section bg-mid-blue" id="thursday">
+            <!-- Thursday heading -->
             <div class="row justify-content-center">
                 <div class="col heading">
                     <h2 class="heading">Thursday</h2>
@@ -119,6 +133,7 @@
                 </div>
             </div>
             <div class="row justify-content-around">
+                <!-- Thursday info -->
                 <div class="col-12 col-md-7 col-lg-6 schedule-info">
                     <h4 class="heading">On the water for 5:30pm</h4>
                     <p>We launch from Channel View Leisure Centre.
@@ -144,12 +159,14 @@
 
                 </div>
                 <div class="col-12 col-md-5 col-lg-6 my-auto text-center">
+                    <!-- Thursday map -->
                     <div>
                         <iframe class="map border-white"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.7530943189986!2d-3.1816570026124302!3d51.462689532603626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e035003175681%3A0xbd6b4e78fcfc11c9!2sChannel%20View%20Leisure%20Centre%20-%20CF11%20Fitness!5e0!3m2!1sen!2suk!4v1679951523872!5m2!1sen!2suk"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <!-- Thursday weather conditions -->
                     <div>
                         <iframe class="conditions border-white" width="650" height="450"
                             src="https://embed.windy.com/embed2.html?lat=51.455&lon=-3.156&detailLat=51.458&detailLon=-3.191&width=650&height=450&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0C&radarRange=-1"></iframe>
@@ -157,7 +174,9 @@
                 </div>
             </div>
         </section>
-        <section id="saturday" class="schedule-section">
+        <!-- SATURDAY -->
+        <section class="container-fluid schedule-section" id="saturday">
+            <!-- Saturday heading-->
             <div class="row justify-content-center">
                 <div class="col heading">
                     <h2 class="heading">Saturday</h2>
@@ -166,6 +185,7 @@
                 </div>
             </div>
             <div class="row justify-content-around">
+                <!-- Saturday info -->
                 <div class="col-12 col-md-7 col-lg-6 schedule-info">
                     <h4 class="heading">On the water for 10am</h4>
                     <p>We launch from Five Locks Basin, Cwmbran.
@@ -189,12 +209,14 @@
 
                 </div>
                 <div class="col-12 col-md-5 col-lg-6 my-auto text-center">
+                    <!-- Saturday map -->
                     <div>
                         <iframe class="map border-navy"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2474.589373345051!2d-3.033493425226591!3d51.66735414927368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871de6c922358e1%3A0xbffa50df345e36db!2sFive%20Locks%20Cl%2C%20Cwmbran!5e0!3m2!1sen!2suk!4v1679953390487!5m2!1sen!2suk"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <!-- Saturday weather conditions -->
                     <div>
                         <iframe class="conditions border-navy" width="650" height="450"
                             src="https://embed.windy.com/embed2.html?lat=51.640&lon=-3.025&detailLat=51.665&detailLon=-3.031&width=650&height=450&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0C&radarRange=-1"></iframe>
@@ -202,7 +224,9 @@
                 </div>
             </div>
         </section>
-        <section id="sunday" class="schedule-section bg-mid-blue">
+        <!-- SUNDAY -->
+        <section class="container-fluid schedule-section bg-mid-blue" id="sunday">
+            <!-- Sunday heading -->
             <div class="row justify-content-center">
                 <div class="col heading">
                     <h2 class="heading">Sunday</h2>
@@ -211,6 +235,7 @@
                 </div>
             </div>
             <div class="row justify-content-around">
+                <!-- Sunday info -->
                 <div class="col-12 col-md-7 col-lg-6 schedule-info">
                     <h4 class="heading">On the water for 11am</h4>
                     <p>We launch from Monmouth Rowing Club steps.
@@ -235,12 +260,14 @@
 
                 </div>
                 <div class="col-12 col-md-5 col-lg-6 my-auto text-center">
+                    <!-- Sunday map -->
                     <div>
                         <iframe class="map border-white"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2466.6163211758653!2d-2.7098816309096114!3d51.81317091824214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4871b946e36189e1%3A0x9a3ed1e2d7e8cb15!2sCar%20Park!5e0!3m2!1sen!2suk!4v1679954420662!5m2!1sen!2suk"
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
+                    <!-- Sunday weather conditions -->
                     <div>
                         <iframe class="conditions border-white" width="650" height="450"
                             src="https://embed.windy.com/embed2.html?lat=51.812&lon=-2.708&detailLat=51.812&detailLon=-2.708&width=650&height=450&zoom=11&level=surface&overlay=wind&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=mph&metricTemp=%C2%B0C&radarRange=-1"></iframe>
@@ -248,7 +275,9 @@
                 </div>
             </div>
         </section>
-    </div>
+    </main>
+
+    <!-- FOOTER -->
     <footer class="container-fluid">
         <div class="row">
             <div class="col">
@@ -276,11 +305,13 @@
                 </a>
             </div>
         </div>
-
     </footer>
+
+    <!-- Script for Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
