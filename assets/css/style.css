@@ -303,7 +303,7 @@ h4 {
     padding-bottom: 50px;
 }
 
-/* CONFIRMATION PAGE */
+/* CONFIRMATION/404 PAGE */
 
 .confirmation {
     text-align: center;
@@ -360,12 +360,14 @@ footer a i:hover {
     }
 }
 
+/* Reduces central padding for smaller devices */
 @media screen and (max-width: 768px) {
     .schedule-info {
         padding-right: 10px;
     }
 }
 
+/* Fixes image when scrolling on larger screens */
 @media screen and (min-width: 768px) {
     .hero-outer {
         background-attachment: fixed;
