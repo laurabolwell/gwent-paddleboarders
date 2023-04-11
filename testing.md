@@ -11,7 +11,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F) | ![screenshot](documentation/testing/code-validation/html-validation-home.png) | Pass: No Errors |
-| Schedule | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fschedule.html) | ![screenshot](documentation/testing/code-validation/html-validation/schedule.png) | Pass: No Errors |
+| Schedule | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fschedule.html) | ![screenshot](documentation/testing/code-validation/html-validation-schedule.png) | Pass: No Errors |
 | Gallery | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fgallery.html) | ![screenshot](documentation/testing/code-validation/html-validation-gallery.png) | Pass: No Errors |
 | Contact | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fcontact.html) | ![screenshot](documentation/testing/code-validation/) |  |
 | Confirmation | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2Fconfirmation.html) | ![screenshot](documentation/testing/code-validation/html-validation-confirmation.png) | Pass: No Errors |
@@ -23,7 +23,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/css-validation-style.png) | Pass: All errors shown are from the imported Bootstrap library |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Flaurabolwell.github.io%2Fgwent-paddleboarders%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/testing/code-validation/css-validation.png) | Pass: All errors shown are from the imported Bootstrap library |
 
 
 ## Browser Compatibility
@@ -35,7 +35,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Chrome | ![screenshot](documentation/testing/browser-testing/chrome-home.png) | Works as expected |
 | Firefox | ![screenshot](documentation/testing/browser-testing/firefox-home.png) | Works as expected |
 | Edge | ![screenshot](documentation/testing/browser-testing/edge-home.png) | Works as expected |
-| Safari | ![screenshot](documentation/) | Minor CSS differences |
 | Brave | ![screenshot](documentation/testing/browser-testing/brave-home.png) | Works as expected |
 | Opera | ![screenshot](documentation/testing/browser-testing/opera-home.png) | Works as expected |
 | Internet Explorer | ![screenshot](documentation/testing/browser-testing/ie-home.png) | Does not work as expected |
@@ -57,7 +56,7 @@ I've tested my deployed project on multiple devices to check for responsiveness 
 | Large Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large.png) | Works as expected |
 | Desktop | ![screenshot](documentation/testing/responsiveness-testing/desktop.png) | Works as expected |
 | XL Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor.png) | Scaling starts to have minor issues |
-| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | Minor scaling issues |
+| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | Scaling issues |
 | x | x | repeat for any other tested sizes |
 
 ## Lighthouse Audit
@@ -94,7 +93,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | As a returning site user, I would like to check the weather conditions at paddle spots, so that I can decide whether to join a particular paddle. | ![screenshot](documentation/features/single-section.png) | |
 | As a returning site user, I would like to view photogaphs of social paddles, so that I can show family and friends. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
 | As a returning site user, I would like to contact the group organisers, so that I can suggest new paddle locations. | ![screenshot](documentation/features/contact.png) | |
-| As a returning site user, I would like to easily find the group's social media pages, so that I can connect with other paddlers in the group. | ![screenshot](documentation/footer.png) | |
+| As a returning site user, I would like to easily find the group's social media pages, so that I can connect with other paddlers in the group. | ![screenshot](documentation/features/footer.png) | |
 | As a site administrator, I should be able to have all paddle information displayed, so that I can update all members and potential members on locations, times and other details eg parking costs. | ![screenshot](documentation/features/four-sections.png) | |
 | As a site administrator, I should be able to have images on the site, so that existing members can see photos of themselves from previous paddles and new members can see what our paddles are about. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
 | As a site administrator, I should be able to be contacted by both new and existing members, so that I can listen to any suggestions or answer any queries they may have. | ![screenshot](documentation/features/contact.png) | |
