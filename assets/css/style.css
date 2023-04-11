@@ -5,7 +5,7 @@
     --mid-blue: #227596;
     --light-blue: #BCE1F0;
     --white: #FFF;
-  }
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -48,7 +48,8 @@ h2 {
     padding-bottom: 16px;
 }
 
-h3, h4 {
+h3,
+h4 {
     padding-top: 12px;
     padding-bottom: 12px;
     letter-spacing: 1px;
@@ -169,7 +170,7 @@ h3, h4 {
 }
 
 .navbar .navbar-toggler {
-    border:none;
+    border: none;
 }
 
 .navbar-toggler:focus,
@@ -191,11 +192,14 @@ h3, h4 {
     transition-duration: 0.3s;
     -webkit-transition-property: transform;
     transition-property: transform;
-  }
-  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
+}
 
 /* HOMEPAGE */
 
@@ -215,7 +219,7 @@ h3, h4 {
 #scroll-to-about {
     color: var(--white);
     font-size: 50px;
-  }
+}
 
 #scroll-to-about:hover {
     color: var(--light-blue)
@@ -258,13 +262,14 @@ h3, h4 {
 .schedule-section {
     padding: 50px 60px;
 }
-    
+
 .schedule-info {
     padding-left: 12px;
     padding-right: 40px;
 }
 
-.map, .conditions {
+.map,
+.conditions {
     width: 100%;
     height: auto;
     border-radius: 20px;
@@ -307,7 +312,7 @@ footer {
     background-color: var(--navy);
     height: 70px;
     text-align: center;
-    padding-top: 10px; 
+    padding-top: 10px;
 }
 
 footer i {
