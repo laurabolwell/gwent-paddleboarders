@@ -87,13 +87,22 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 
 ### Home Page Wireframes
 
+<details>
+<summary>Click to see the Home Page Wireframes</summary>
+
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
 | Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
 
+</details>
+
+
 ### Schedule Page Wireframes
+
+<details>
+<summary>Click to see the Schedule Page Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
@@ -101,7 +110,12 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-schedule.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-schedule.png) |
 
+</details>
+
 ### Gallery Page Wireframes
+
+<details>
+<summary>Click to see the Gallery Page Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
@@ -109,7 +123,12 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-gallery.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-gallery.png) |
 
+</details>
+
 ### Contact Page Wireframes
+
+<details>
+<summary>Click to see the Contact Page Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
@@ -117,7 +136,12 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
 
+</details>
+
 ### Confirmation Page Wireframes
+
+<details>
+<summary>Click to see the Confirmation Page Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
@@ -125,13 +149,20 @@ I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wirefram
 | Tablet | ![screenshot](documentation/wireframes/tablet-confirmation.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
 
+</details>
+
 ### 404 Page Wireframes
+
+<details>
+<summary>Click to see the 404 Page Wireframes</summary>
 
 | Size | Screenshot |
 | --- | --- |
 | Mobile | ![screenshot](documentation/wireframes/mobile-404.png) |
 | Tablet | ![screenshot](documentation/wireframes/tablet-404.png) |
 | Desktop | ![screenshot](documentation/wireframes/desktop-404.png) |
+
+</details>
 
 
 ### Existing Features
