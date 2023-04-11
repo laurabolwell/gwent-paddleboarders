@@ -70,18 +70,18 @@ The following screenshots show the final lighthouse testing results.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/testing/lighthouse/home-mobile.png) |  |
-| Home | Desktop | ![screenshot](documentation/testing/lighthouse/home-desktop.png) |  |
-| Schedule | Mobile | ![screenshot](documentation/testing/lighthouse/schedule-mobile.png) |  |
-| Schedule | Desktop | ![screenshot](documentation/testing/lighthouse/schedule-desktop.png) |  |
-| Gallery | Mobile | ![screenshot](documentation/testing/lighthouse/gallery-mobile.png) |  |
-| Gallery | Desktop | ![screenshot](documentation/testing/lighthouse/gallery-desktop.png) | |
-| Contact | Mobile | ![screenshot](documentation/testing/lighthouse/contact-mobile.png) | |
-| Contact | Desktop | ![screenshot](documentation/testing/lighthouse/contact-desktop.png) | |
-| Confirmation | Mobile | ![screenshot](documentation/testing/lighthouse/confirmation-mobile.png) | |
-| Confirmation | Desktop | ![screenshot](documentation/testing/lighthouse/confirmation-desktop.png) | |
-| 404 | Mobile | ![screenshot](documentation/testing/lighthouse/404-mobile.png) | |
-| 404 | Desktop | ![screenshot](documentation/testing/lighthouse/404-desktop.png) | |
+| Home | Mobile | ![screenshot](documentation/testing/lighthouse/home-mobile.png) | No major issues |
+| Home | Desktop | ![screenshot](documentation/testing/lighthouse/home-desktop.png) | No major issues |
+| Schedule | Mobile | ![screenshot](documentation/testing/lighthouse/schedule-mobile.png) | No major issues |
+| Schedule | Desktop | ![screenshot](documentation/testing/lighthouse/schedule-desktop.png) | No major issues |
+| Gallery | Mobile | ![screenshot](documentation/testing/lighthouse/gallery-mobile.png) | No major issues |
+| Gallery | Desktop | ![screenshot](documentation/testing/lighthouse/gallery-desktop.png) | No major issues |
+| Contact | Mobile | ![screenshot](documentation/testing/lighthouse/contact-mobile.png) | No major issues |
+| Contact | Desktop | ![screenshot](documentation/testing/lighthouse/contact-desktop.png) | No major issues |
+| Confirmation | Mobile | ![screenshot](documentation/testing/lighthouse/confirmation-mobile.png) | No major issues |
+| Confirmation | Desktop | ![screenshot](documentation/testing/lighthouse/confirmation-desktop.png) | No major issues |
+| 404 | Mobile | ![screenshot](documentation/testing/lighthouse/404-mobile.png) | No major issues |
+| 404 | Desktop | ![screenshot](documentation/testing/lighthouse/404-desktop.png) | No major issues |
 
 
 ## User Story Testing
