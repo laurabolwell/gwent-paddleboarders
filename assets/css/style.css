@@ -261,6 +261,10 @@ h4 {
     margin-bottom: 20px;
 }
 
+.fixed-height-heading {
+    height: 70px;
+}
+
 /* SCHEDULE PAGE */
 
 .schedule-section {
