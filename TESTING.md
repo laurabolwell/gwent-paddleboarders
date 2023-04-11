@@ -1,7 +1,5 @@
 # Testing
 
-Return back to the [README.md](README.md) file.
-
 ## Code Validation
 
 ### HTML
@@ -141,18 +139,21 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 - Hero image not displaying correctly on apple devices
 
-    The background-attachment:fixed property is causing the hero image to display incorrectly on small apple devices, ie, iphones and ipads. This is because iOS has an issue preventing background-attachment: fixed from being used with background-size: cover. This issue is documented [here](https://caniuse.com/background-attachment), and this site also suggests there will be issues with it on android browsers (unfortunately I don't have any android devices to test).
+    The background-attachment:fixed property is causing the hero image to display incorrectly on small apple devices, ie, iphones and ipads. This is because iOS has an issue preventing background-attachment: fixed from being used with background-size: cover. This issue is documented [here](https://caniuse.com/background-attachment), and this site also suggests there will be issues with it on android browsers (unfortunately I don't have any android devices to manually test).
 
     Incorrectly displayed hero image (iphone11):\
-    ![screenshot](documentation/testing/issues/hero-image-issue.png)\
+    ![screenshot](documentation/issues/hero-image-issue.png)\
     Incorrectly displayed hero image (ipad):\
-    ![screenshot](documentation/testing/issues/hero-image-issue-ipad.png)\
+    ![screenshot](documentation/issues/hero-image-issue-ipad.png)
 
-    In order to overcome this I have removed the background-attachment: fixed property and added it as a media query so that the image will only be fixed on screen sizes larger than 992px. The image now scrolls with the page on mobile and tablet screen sizes which does not look as good as when it is fixed but at least the image displays correctly, and will also fix any potential display issues on android devices as well as the known issues on iOS.
+    In order to try to overcome this I have removed the background-attachment: fixed property and added it as a media query so that the image will only be fixed on screen sizes larger than 992px. The image now scrolls with the page on mobile and tablet screen sizes which does not look as good as when it is fixed but at least the image displays correctly, and will also fix any potential display issues on android devices as well as the known issues on iOS.
 
     Correctly displayed hero image (iphone11):\
-    ![screenshot](documentation/testing/issues/hero-image-fixed.png)\
+    ![screenshot](documentation/issues/hero-image-fixed.png)\
     Correctly displayed hero image (ipad):\
-    ![screenshot](documentation/testing/issues/hero-image-fixed-ipad.png)\
+    ![screenshot](documentation/issues/hero-image-fixed-ipad.png)
 
-    I am unsure of whether the fixed property causes the hero image to display incorrectly on safari on macOS as I do not have any 
+    I am unsure of whether the fixed property causes the hero image to display incorrectly on safari on macOS as I do not have any suitable devices to manually test.
+
+    
+Return back to the [README.md](README.md) file.
