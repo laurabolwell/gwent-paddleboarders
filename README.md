@@ -144,9 +144,9 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The nav links are shown in white text while the current active page is shown in a light-blue, this gives the user feedback as to their current position on the site while still providing a good contrast against the navy navbar background colour. 
     - Hover effects (larger size and changed color) on navbar-brand and the navbar links give instant feedback to the user.
 
-    Navbar with active Home page:
+    Navbar with active Home page:\
     ![navbar](documentation/features/navbar.png)
-    Navbar with active home page and hover on Schedule page:
+    Navbar with active home page and hover on Schedule page:\
     ![navbar-hover](documentation/features/navbar-hover.png)
 
 - **Navbar Mobile Toggler**
@@ -154,23 +154,23 @@ The website is comprised of six pages, four of which are accessible from the nav
     - On screen sizes less than 768px, the navbar collapses to a burger toggler. This was implemented to give the site a clean look and prevent the navbar from becoming too cluttered. Both the burger icon and dropdown menu are on the right side of the screen, this provides a good user experience as most users would use their right thumb to click on the icon and then the dropdown menu appears in close proximity to it.
     - On screen sizes less than 420px, a line break appears between 'Gwent' and 'Paddleboarders' to prevent the burger icon from overflowing onto the next line.
 
-    Collapsed navbar:
-    ![collapsed navbar](documentation/features/navbar-collapsed.png)
-    Collapsed navbar on screens less than 420px:
-    ![collapsed navbar on small screens](documentation/features/navbar-collapsed-small.png)
-    Collapsed navbar with menu open:
-    ![collapsed navbar menu open](documentation/features/navbar-collapsed-open.png)
-    Collapsed navbar with menu open on screens less than 420px:
-    ![Collapsed navbar menu open small screen](documentation/features/navbar-collapsed-small-open.png)
+    Collapsed navbar:\
+    ![collapsed navbar](documentation/features/navbar-collapsed.png)\
+    Collapsed navbar on screens less than 420px:\
+    ![collapsed navbar on small screens](documentation/features/navbar-collapsed-small.png)\
+    Collapsed navbar with menu open:\
+    ![collapsed navbar menu open](documentation/features/navbar-collapsed-open.png)\
+    Collapsed navbar with menu open on screens less than 420px:\
+    ![Collapsed navbar menu open small screen](documentation/features/navbar-collapsed-small-open.png)\
 
 - **Footer**
 
     - The footer contains links to the Facebook, Instagram, and YouTube sites of the group. It also has a link to the Contact page. Universally recognisable icons were used rather than text to the give the footer a clean look. The icons change color when hovered over to give instant feedback to the user. The three external social media links open in a new page while the Contact page link opens in the current window.
 
-    Footer:
-    ![footer](documentation/features/footer.png)
-    Footer with hover effect on Facebook icon:
-    ![footer-hover](documentation/features/footer-hover.png)
+    Footer:\
+    ![footer](documentation/features/footer.png)\
+    Footer with hover effect on Facebook icon:\
+    ![footer-hover](documentation/features/footer-hover.png)\
 
 #### Home Page
 
@@ -178,27 +178,27 @@ The website is comprised of six pages, four of which are accessible from the nav
 
     - The landing page shows a large image of 2 paddleboarders that covers the full viewport height which gives a clean look to the page. There is a clearly visible chevron icon at the bottom of the screen alerting users that there is further content below this image. Users can either scroll down or click on the icon to reach the next section.
 
-    Homepage Hero Image:
-    ![hero-image](documentation/features/hero-image.png)
+    Homepage Hero Image:\
+    ![hero-image](documentation/features/hero-image.png)\
 
 - **'About Section**
 
     - The section gives some information about the group that new users would need to know before joining a paddle. It also lets potential members know that the group does not offer tuition or hire and is not suitable for beginners.
 
-    About Section:
-    ![about](documentation/features/about.png)
+    About Section:\
+    ![about](documentation/features/about.png)\
 
 - **Benefits Section**
 
     - This section gives the users some information of benefits of paddleboarding in general and also benefits of paddleboarding in a group.
     - On large screens the three subsections are displayed in a row, on medium screens two sections are displayed next two each other with the third below, and on small screens the sections are stacked vertically.
 
-    Benefits (small screen):
-    ![benefits-small](documentation/features/benefits-small.png)
-    Benefits (medium screen):
-    ![benefits-medium](documentation/features/benefits-medium.png)
-    Benefits (large screen):
-    ![benefits-large](documentation/features/benefits-large.png)
+    Benefits (small screen):\
+    ![benefits-small](documentation/features/benefits-small.png)\
+    Benefits (medium screen):\
+    ![benefits-medium](documentation/features/benefits-medium.png)\
+    Benefits (large screen):\
+    ![benefits-large](documentation/features/benefits-large.png)\
 
 - **Schedule Overview**
 
@@ -206,12 +206,12 @@ The website is comprised of six pages, four of which are accessible from the nav
     - Each card has a button linking to the Schedule page which shows the full information for the paddle. The buttons are large and have a colour-changing hover effect.
     - On large screens the four cards are displayed in a row, on medium screens they are displayed in two rows of two, and on small screens they are stacked vertically.
 
-    Schedule overview (small screen):
-    ![schedule-overview](documentation/features/schedule-overview-small.png)
-    Schedule overview (medium screen):
-    ![schedule-overview](documentation/features/schedule-overview-medium.png)
-    Schedule overview (large screen):
-    ![schedule-overview](documentation/features/schedule-overview-large.png)
+    Schedule overview (small screen):\
+    ![schedule-overview](documentation/features/schedule-overview-small.png)\
+    Schedule overview (medium screen):\
+    ![schedule-overview](documentation/features/schedule-overview-medium.png)\
+    Schedule overview (large screen):\
+    ![schedule-overview](documentation/features/schedule-overview-large.png)\
 
 #### Schedule Page
 
@@ -221,10 +221,10 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The buttons are displayed in two rows of two on mobile devices and in one row on all other devices.
     - The buttons stick to the top of the page when scrolling to enable easier navigation around the page.
 
-    Link buttons:
-    ![jump links](documentation/features/jump-links.png)
-    Link buttons with hover effect shown on Thursday:
-    ![jump links](documentation/features/jump-links-hover.png)
+    Link buttons:\
+    ![jump links](documentation/features/jump-links.png)\
+    Link buttons with hover effect shown on Thursday:\
+    ![jump links](documentation/features/jump-links-hover.png)\
 
 - **Paddle Information Sections**
 
@@ -234,10 +234,10 @@ The website is comprised of six pages, four of which are accessible from the nav
     - For each section on the page there is a widget showing current wind conditions and how they will change over the next week. This will enable users to see at a glance if the conditions are good enough for them to attend the paddle.
     - On large screens the text and map/conditions appear side by side but on small screens they are stacked vertically.
     
-    Zoomed out view showing the four sections:
-    ![four-sections](documentation/features/four-sections.png)
-    Single section showing the text, what3words link, Google Map, and Windy.com conditions widget:
-    ![single-section](documentation/features/single-section.png)
+    Zoomed out view showing the four sections:\
+    ![four-sections](documentation/features/four-sections.png)\
+    Single section showing the text, what3words link, Google Map, and Windy.com conditions widget:\
+    ![single-section](documentation/features/single-section.png)\
 
 #### Gallery Page
 
@@ -247,9 +247,9 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The carousels cycle through the images automatically but also contain controls for users to manually move forward or backwards through the images if they wish to. 
     -The carousels will give new users a feel for if the group would be suitable for them and will give existing members a chance to see photos of them participating in paddles.
 
-    Carousels for two of the four sections:
-    ![carousel example](documentation/features/gallery-llandegfedd.png)
-    ![carousel example](documentation/features/gallery-cardiff.png)
+    Carousels for two of the four sections:\
+    ![carousel example](documentation/features/gallery-llandegfedd.png)\
+    ![carousel example](documentation/features/gallery-cardiff.png)\
 
 #### Contact Page
 
@@ -260,8 +260,8 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The phone number is an optional field. If a user wishes to enter their phone number, it must be entered in the correct format, which the placeholder text describes for the user.
     - The 'Send' button changes colour when hovered over.
 
-    Contact Page:
-    ![contact page](documentation/features/contact.png)
+    Contact Page:\
+    ![contact page](documentation/features/contact.png)\
 
 #### Confirmation Page
 
@@ -271,10 +271,10 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The confirmation page has a full working navbar and footer if the user wishes to navigate to a new area of the site themselves. 
     - There is an automatic redirection to the homepage after 10 seconds (with countdown timer).
 
-    Confirmation Page:
-    ![confirmation page](documentation/features/confirmation.png)
-    Confirmation Page Showing Timer Counting Down:
-    ![confirmation page counting down](documentation/features/confirmation-counting-down.png)
+    Confirmation Page:\
+    ![confirmation page](documentation/features/confirmation.png)\
+    Confirmation Page Showing Timer Counting Down:\
+    ![confirmation page counting down](documentation/features/confirmation-counting-down.png)\
 
 - #### 404 Page
 
@@ -284,10 +284,10 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The 404 page has a full working navbar and footer if the user wishes to navigate to a new area of the site themselves.
     - There is an automatic redirection to the homepage after 10 seconds (with countdown timer).
 
-    404 Page:
-    ![404 page](documentation/features/404.png)
-    404 Page Showing Timer Counting Down:
-    ![404 page showing countdown](documentation/features/404-counting-down.png)
+    404 Page:\
+    ![404 page](documentation/features/404.png)\
+    404 Page Showing Timer Counting Down:\
+    ![404 page showing countdown](documentation/features/404-counting-down.png)\
 
 
 ### Future Features
