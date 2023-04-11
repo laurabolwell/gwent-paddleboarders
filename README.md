@@ -194,7 +194,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     Collapsed navbar with menu open:\
     ![screenshot](documentation/features/navbar-collapsed-open.png)\
     Collapsed navbar with menu open on screens less than 420px:\
-    ![screenshot](documentation/features/navbar-collapsed-small-open.png)\
+    ![screenshot](documentation/features/navbar-collapsed-small-open.png)
 
 - **Footer**
 
@@ -203,7 +203,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     Footer:\
     ![screenshot](documentation/features/footer.png)\
     Footer with hover effect on Facebook icon:\
-    ![screenshot](documentation/features/footer-hover.png)\
+    ![screenshot](documentation/features/footer-hover.png)
 
 #### Home Page
 
@@ -212,14 +212,14 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The landing page shows a large image of 2 paddleboarders that covers the full viewport height which gives a clean look to the page. There is a clearly visible chevron icon at the bottom of the screen alerting users that there is further content below this image. Users can either scroll down or click on the icon to reach the next section.
 
     Homepage Hero Image:\
-    ![screenshot](documentation/features/hero-image.png)\
+    ![screenshot](documentation/features/hero-image.png)
 
-- **'About Section**
+- **About Section**
 
     - The section gives some information about the group that new users would need to know before joining a paddle. It also lets potential members know that the group does not offer tuition or hire and is not suitable for beginners.
 
     About Section:\
-    ![screenshot](documentation/features/about.png)\
+    ![screenshot](documentation/features/about.png)
 
 - **Benefits Section**
 
@@ -231,7 +231,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     Benefits (medium screen):\
     ![screenshot](documentation/features/benefits-medium.png)\
     Benefits (large screen):\
-    ![screenshot](documentation/features/benefits-large.png)\
+    ![screenshot](documentation/features/benefits-large.png)
 
 - **Schedule Overview**
 
@@ -244,7 +244,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     Schedule overview (medium screen):\
     ![screenshot](documentation/features/schedule-overview-medium.png)\
     Schedule overview (large screen):\
-    ![screenshot](documentation/features/schedule-overview-large.png)\
+    ![screenshot](documentation/features/schedule-overview-large.png)
 
 #### Schedule Page
 
@@ -257,7 +257,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     Link buttons:\
     ![screenshot](documentation/features/jump-links.png)\
     Link buttons with hover effect shown on Thursday:\
-    ![screenshot](documentation/features/jump-links-hover.png)\
+    ![screenshot](documentation/features/jump-links-hover.png)
 
 - **Paddle Information Sections**
 
@@ -270,7 +270,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     Zoomed out view showing the four sections:\
     ![screenshot](documentation/features/four-sections.png)\
     Single section showing the text, what3words link, Google Map, and Windy.com conditions widget:\
-    ![screenshot](documentation/features/single-section.png)\
+    ![screenshot](documentation/features/single-section.png)
 
 #### Gallery Page
 
@@ -282,7 +282,7 @@ The website is comprised of six pages, four of which are accessible from the nav
 
     Carousels for two of the four sections:\
     ![screenshot](documentation/features/gallery-llandegfedd.png)\
-    ![screenshot](documentation/features/gallery-cardiff.png)\
+    ![screenshot](documentation/features/gallery-cardiff.png)
 
 #### Contact Page
 
@@ -294,7 +294,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     - The 'Send' button changes colour when hovered over.
 
     Contact Page:\
-    ![screenshot](documentation/features/contact.png)\
+    ![screenshot](documentation/features/contact.png)
 
 #### Confirmation Page
 
@@ -307,7 +307,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     Confirmation Page:\
     ![screenshot](documentation/features/confirmation.png)\
     Confirmation Page Showing Timer Counting Down:\
-    ![screenshot](documentation/features/confirmation-counting-down.png)\
+    ![screenshot](documentation/features/confirmation-counting-down.png)
 
 - #### 404 Page
 
@@ -320,7 +320,7 @@ The website is comprised of six pages, four of which are accessible from the nav
     404 Page:\
     ![screenshot](documentation/features/404.png)\
     404 Page Showing Timer Counting Down:\
-    ![screenshot](documentation/features/404-counting-down.png)\
+    ![screenshot](documentation/features/404-counting-down.png)
 
 
 ### Future Features
