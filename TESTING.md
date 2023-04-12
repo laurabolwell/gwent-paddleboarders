@@ -86,22 +86,22 @@ The following screenshots show the final lighthouse testing results.
 
 ## User Story Testing
 
-| User Story | Screenshot | |
-| --- | --- | ---|
-| As a new site user, I would like to find out what the group is about, so that I can see if it would be suitable for me to join. | ![screenshot](documentation/features/about.png) | |
-| As a new site user, I would like to view photos of previous paddles, so that I can get a feel for if the group would be suitable for me. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
-| As a new site user, I would like to find out where and when the group meets, so that I can join the group. | ![screenshot](documentation/features/schedule-overview-large.png) | ![screenshot](documentation/features/single-section.png) |
-| As a new site user, I would like to find out how to join a group paddle and if there is any cost, so that I can join the group. | ![screenshot](documentation/features/about.png) | |
-| As a new site user, I would like to find out about parking at paddle locations, so that I will know where to park my car when I join the group. | ![screenshot](documentation/features/single-section.png) | |
-| As a new site user, I would like to contact the group organisers, so that I can ask any other questions I may have. | ![screenshot](documentation/features/contact.png) | |
-| As a returning site user, I would like to find the schedule, so that I can check the times of group paddles. | ![screenshot](documentation/features/schedule-overview-large.png) | ![screenshot](documentation/features/single-section.png)
-| As a returning site user, I would like to check the weather conditions at paddle spots, so that I can decide whether to join a particular paddle. | ![screenshot](documentation/features/single-section.png) | |
-| As a returning site user, I would like to view photogaphs of social paddles, so that I can show family and friends. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
-| As a returning site user, I would like to contact the group organisers, so that I can suggest new paddle locations. | ![screenshot](documentation/features/contact.png) | |
-| As a returning site user, I would like to easily find the group's social media pages, so that I can connect with other paddlers in the group. | ![screenshot](documentation/features/footer.png) | |
-| As a site administrator, I should be able to have all paddle information displayed, so that I can update all members and potential members on locations, times and other details eg parking costs. | ![screenshot](documentation/features/four-sections.png) | |
-| As a site administrator, I should be able to have images on the site, so that existing members can see photos of themselves from previous paddles and new members can see what our paddles are about. | ![screenshot](documentation/features/gallery-llandegfedd.png) | |
-| As a site administrator, I should be able to be contacted by both new and existing members, so that I can listen to any suggestions or answer any queries they may have. | ![screenshot](documentation/features/contact.png) | |
+| User Story | Screenshot | | Notes |
+| --- | --- | --- | --- |
+| As a new site user, I would like to find out what the group is about, so that I can see if it would be suitable for me to join. | ![screenshot](documentation/features/about.png) | | Information found on Home page directly below hero image, can be reached by minimal scrolling or by clicking chevron icon |
+| As a new site user, I would like to view photos of previous paddles, so that I can get a feel for if the group would be suitable for me. | ![screenshot](documentation/features/gallery-llandegfedd.png) | | One click to reach Gallery page |
+| As a new site user, I would like to find out where and when the group meets, so that I can join the group. | ![screenshot](documentation/features/schedule-overview-large.png) | ![screenshot](documentation/features/single-section.png) | Schedule overview is on home page, more detailed information reachable in one click (either using 'Full Details' button on Home page or clicking on 'Schedule' on navbar) |
+| As a new site user, I would like to find out how to join a group paddle and if there is any cost, so that I can join the group. | ![screenshot](documentation/features/about.png) | | Information found on Home page directly below hero image, can be reached by minimal scrolling or by clicking chevron icon |
+| As a new site user, I would like to find out about parking at paddle locations, so that I will know where to park my car when I join the group. | ![screenshot](documentation/features/single-section.png) | | One click to reach full schedule information on Schedule page |
+| As a new site user, I would like to contact the group organisers, so that I can ask any other questions I may have. | ![screenshot](documentation/features/contact.png) | | One click to reach Contact page |
+| As a returning site user, I would like to find the schedule, so that I can check the times of group paddles. | ![screenshot](documentation/features/schedule-overview-large.png) | ![screenshot](documentation/features/single-section.png) | Schedule overview with time and location is on home page, more detailed information reachable in one click (either using 'Full Details' button on Home page or clicking on 'Schedule' on navbar) |
+| As a returning site user, I would like to check the weather conditions at paddle spots, so that I can decide whether to join a particular paddle. | ![screenshot](documentation/features/single-section.png) | | One click to reach weather information on Schedule page |
+| As a returning site user, I would like to view photogaphs of social paddles, so that I can show family and friends. | ![screenshot](documentation/features/gallery-llandegfedd.png) | | One click to reach Gallery page |
+| As a returning site user, I would like to contact the group organisers, so that I can suggest new paddle locations. | ![screenshot](documentation/features/contact.png) | | Once click to reach Contact page |
+| As a returning site user, I would like to easily find the group's social media pages, so that I can connect with other paddlers in the group. | ![screenshot](documentation/features/footer.png) | | Footer displayed at the bottom of every page |
+| As a site administrator, I should be able to have all paddle information displayed, so that I can update all members and potential members on locations, times and other details eg parking costs. | ![screenshot](documentation/features/four-sections.png) | | One click to reach full schedule information |
+| As a site administrator, I should be able to have images on the site, so that existing members can see photos of themselves from previous paddles and new members can see what our paddles are about. | ![screenshot](documentation/features/gallery-llandegfedd.png) | | One click to reach Gallery page |
+| As a site administrator, I should be able to be contacted by both new and existing members, so that I can listen to any suggestions or answer any queries they may have. | ![screenshot](documentation/features/contact.png) | | One click to reach Contact page |
 
 
 ## Bugs and Issues
