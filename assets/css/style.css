@@ -361,6 +361,13 @@ footer a i:hover {
     }
 }
 
+/* Fixes image when scrolling on larger screens */
+@media screen and (min-width: 992px) {
+    .hero-outer {
+        background-attachment: fixed;
+    }
+}
+
 /* Adjusts padding of schedule page for smaller devices */
 @media screen and (max-width: 992px) {
     .schedule-section {
@@ -372,13 +379,6 @@ footer a i:hover {
 @media screen and (max-width: 768px) {
     .schedule-info {
         padding-right: 10px;
-    }
-}
-
-/* Fixes image when scrolling on larger screens */
-@media screen and (min-width: 992px) {
-    .hero-outer {
-        background-attachment: fixed;
     }
 }
 
