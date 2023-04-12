@@ -381,3 +381,18 @@ footer a i:hover {
         background-attachment: fixed;
     }
 }
+
+/* Adds extra padding to schedule page on large and extra large screens */
+@media screen and (min-width: 1920px) {
+    .schedule-section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .schedule-section {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}
