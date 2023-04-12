@@ -42,21 +42,21 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 I've tested my deployed project on multiple devices to check for responsiveness issues.
 
-| Device | Screenshot | Notes |
-| --- | --- | --- |
-| XS Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-xs.png) | Works as expected |
-| Small Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-small.png) | Works as expected |
-| Medium Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-medium.png) | Works as expected |
-| Large Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-large.png) | Works as expected |
-| Small Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/tablet-small.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/tablet.png) | Works as expected |
-| Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop.png) | Works as expected |
-| Large Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large.png) | Works as expected |
-| Desktop | ![screenshot](documentation/testing/responsiveness-testing/desktop.png) | Works as expected |
-| XL Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor.png) | Scaling starts to have minor issues |
-| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | Scaling issues |
-| iphone11 | ![screenshot](documentation/testing/responsiveness-testing/iphone11.png) | Works as expected |
-| ipad | ![screenshot](documentation/testing/responsiveness-testing/ipad.png) | Works as expected |
+| Device | Screenshot Home | Screenshot Schedule | Screenshot Gallery | Screenshot Contact | Notes |
+| --- | --- | --- | --- | --- | --- |
+| XS Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-xs.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-xs-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-xs-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-xs-contact.png) | Works as expected |
+| Small Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-small.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-small-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-small-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-small-contact.png) | Works as expected |
+| Medium Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-medium.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-medium-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-medium-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-medium-contact.png) | Works as expected |
+| Large Mobile (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/mobile-large.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-large-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-large-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/mobile-large-contact.png) | Works as expected |
+| Small Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/tablet-small.png) | ![screenshot](documentation/testing/responsiveness-testing/tablet-small-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/tablet-small-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/tablet-small-contact.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/tablet.png) | ![screenshot](documentation/testing/responsiveness-testing/tablet-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/tablet-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/tablet-contact.png) | Works as expected |
+| Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop.png) | ![screenshot](documentation/testing/responsiveness-testing/laptop-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/laptop-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/laptop-contact.png) | Works as expected |
+| Large Laptop (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large.png) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/laptop-large-contact.png) | Works as expected |
+| Desktop | ![screenshot](documentation/testing/responsiveness-testing/desktop.png) | ![screenshot](documentation/testing/responsiveness-testing/desktop-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/desktop-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/desktop-contact.png) | Works as expected |
+| XL Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor.png) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/xl-monitor-contact.png) | Scaling starts to have minor issues |
+| 4K Monitor (DevTools) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor.png) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/4k-monitor-contact.png) | Minor scaling issues |
+| iphone11 | ![screenshot](documentation/testing/responsiveness-testing/iphone11.png) | ![screenshot](documentation/testing/responsiveness-testing/iphone11-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/iphone11-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/iphone11-contact.png) | Works as expected |
+| ipad | ![screenshot](documentation/testing/responsiveness-testing/ipad.png) | ![screenshot](documentation/testing/responsiveness-testing/ipad-schedule.png) | ![screenshot](documentation/testing/responsiveness-testing/ipad-gallery.png) | ![screenshot](documentation/testing/responsiveness-testing/ipad-contact.png) | Works as expected |
 
 ## Lighthouse Audit
 
