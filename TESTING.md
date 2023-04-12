@@ -35,7 +35,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Edge | ![screenshot](documentation/testing/browser-testing/edge-home.png) | Works as expected |
 | Brave | ![screenshot](documentation/testing/browser-testing/brave-home.png) | Works as expected |
 | Opera | ![screenshot](documentation/testing/browser-testing/opera-home.png) | Works as expected |
-| Internet Explorer | ![screenshot](documentation/testing/browser-testing/ie-home.png) | Does not work as expected |
+| Internet Explorer | ![screenshot](documentation/testing/browser-testing/ie-home.png) | Does not work as expected as IE does not support webp image format or Bootstrap |
 
 
 ## Responsiveness
