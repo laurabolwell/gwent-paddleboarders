@@ -297,9 +297,11 @@ h4 {
     padding-bottom: 50px;
 }
 
-.carousel-item {
+.carousel-item img {
     max-height: 75vh;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center center;
+    overflow: hidden;
 }
 
 /* CONTACT PAGE */
