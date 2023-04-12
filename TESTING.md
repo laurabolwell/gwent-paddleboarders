@@ -122,10 +122,9 @@ The following screenshots show the final lighthouse testing results.
 
     At 1075-1080px, two of the location headings wrap onto a second line, causing the 'Full Details' buttons to sit at different heights. I have fixed this by adding a fixed-height-heading class to all four of these headings and allowing enough room that the text can overflow onto a second line. The buttons are now aligned on all viewport sizes.
 
-    Buttons not aligned:\
-    ![screenshot](documentation/issues/schedule-overview-issue.png)\
-    Issue fixed:\
-    ![screenshot](documentation/issues/schedule-overview-fixed.png)
+    | Buttons not aligned | Issue fixed |
+    | --- | --- |
+    | ![screenshot](documentation/issues/schedule-overview-issue.png) | ![screenshot](documentation/issues/schedule-overview-fixed.png) |
 
 - Footer not sitting at the bottom of the page on contact, confirmation and 404 pages
 
@@ -147,17 +146,11 @@ The following screenshots show the final lighthouse testing results.
 
     The background-attachment:fixed property is causing the hero image to display incorrectly on small apple devices, ie, iphones and ipads. This is because iOS has an issue preventing background-attachment: fixed from being used with background-size: cover. This issue is documented [here](https://caniuse.com/background-attachment), and this site also suggests there will be issues with it on android browsers (unfortunately I don't have any android devices to manually test).
 
-    Incorrectly displayed hero image (iphone11):\
-    ![screenshot](documentation/issues/hero-image-issue.png)\
-    Incorrectly displayed hero image (ipad):\
-    ![screenshot](documentation/issues/hero-image-issue-ipad.png)
-
     In order to try to overcome this I have removed the background-attachment: fixed property and added it as a media query so that the image will only be fixed on screen sizes larger than 992px. The image now scrolls with the page on mobile and tablet screen sizes which does not look as good as when it is fixed but at least the image displays correctly, and will also fix any potential display issues on android devices as well as the known issues on iOS.
 
-    Correctly displayed hero image (iphone11):\
-    ![screenshot](documentation/issues/hero-image-fixed.png)\
-    Correctly displayed hero image (ipad):\
-    ![screenshot](documentation/issues/hero-image-fixed-ipad.png)
+    | Incorrectly displayed hero image (iphone11) |Correctly displayed hero image (iphone11) |Incorrectly displayed hero image (ipad): | Correctly displayed hero image (ipad) |
+    | --- | --- | --- | --- |
+    | ![screenshot](documentation/issues/hero-image-issue.png) | ![screenshot](documentation/issues/hero-image-fixed.png) | ![screenshot](documentation/issues/hero-image-issue-ipad.png) | ![screenshot](documentation/issues/hero-image-fixed-ipad.png) |
 
     I am unsure of whether the fixed property causes the hero image to display incorrectly on safari on macOS as I do not have any suitable devices to manually test.
 
